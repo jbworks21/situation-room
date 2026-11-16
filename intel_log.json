@@ -1,0 +1,321 @@
+{
+  "seen_links": [
+    "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
+    "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/16/israeli-forces-demolish-the-homes-of-two-palestinian-prisoners?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/16/jerusalem-daily-eisenkot-wants-netanyahu-out?traffic_source=rss",
+    "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+    "https://www.defensenews.com/news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/",
+    "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
+    "https://www.defensenews.com/industry/techwatch/2026/11/16/us-and-russia-to-oppose-talks-on-limiting-autonomous-weapons/",
+    "https://www.defensenews.com/global/europe/2026/11/16/italy-backs-rapid-german-membership-path-into-gcap-fighter-program/",
+    "https://www.defensenews.com/industry/2026/11/16/marine-corps-doubles-extends-contract-for-m27-rifles/",
+    "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+    "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+    "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+    "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+    "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+    "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+    "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+    "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+    "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+    "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+    "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+    "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+  ],
+  "recent_items": [
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Five EU countries announce migrant deportation centre in Rwanda",
+      "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Yemeni forces retreat to defend port city from Houthis",
+      "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
+      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Man sentenced over 'horrific' attempted murder of three children",
+      "link": "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Raye, Rosal\u00eda and Dolly Parton recognised in Grammy nominations",
+      "link": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
+      "link": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BBC WORLD",
+      "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+      "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Silicon Valley insiders urge Nvidia to restore Jensen Huang\u2019s CEO role",
+      "link": "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Iraq deploys army to stronghold of Iran-backed Kataib Hezbollah",
+      "link": "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "LIVE: Germany vs Netherlands \u2013 UEFA Nations League",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump denies responsibility for FAA nationwide ground stop",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Iran braces for natural gas shortages during winter energy imbalance",
+      "link": "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli forces demolish the homes of two Palestinian prisoners",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/israeli-forces-demolish-the-homes-of-two-palestinian-prisoners?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "AL JAZEERA",
+      "title": "Jerusalem Daily: Eisenkot wants Netanyahu out",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/16/jerusalem-daily-eisenkot-wants-netanyahu-out?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26",
+      "link": "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Europe hunts for Palantir alternatives as militaries seek to limit US dependence",
+      "link": "https://www.defensenews.com/news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "China has \u2018normalized\u2019 naval presence near Japan since political spat of 2025",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "US and Russia to oppose talks on limiting autonomous weapons",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/16/us-and-russia-to-oppose-talks-on-limiting-autonomous-weapons/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Italy backs rapid German membership path into GCAP fighter program",
+      "link": "https://www.defensenews.com/global/europe/2026/11/16/italy-backs-rapid-german-membership-path-into-gcap-fighter-program/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Marine Corps doubles, extends contract for M27 rifles",
+      "link": "https://www.defensenews.com/industry/2026/11/16/marine-corps-doubles-extends-contract-for-m27-rifles/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Drone, meet bullet \u2014 companies develop new counter UAS capability | Business of Defense \u2013 Part 3",
+      "link": "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft says months-old bug caused global Microsoft 365 outage",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Fandango says hackers stole payment card details from checkout pages",
+      "link": "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "7 Tips For Complying with CJIS Password and MFA Requirements",
+      "link": "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Google warns that fully-automated AI attacks are coming soon",
+      "link": "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft: Windows Server 2016 reaches end of support in 60 days",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Australian retail giant Coles investigates cybersecurity incident",
+      "link": "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Anthropic\u2019s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
+      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
+      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
+      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
+      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
+      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
+      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/16 18:09 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
+      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+      "priority": true,
+      "theater": "CYBER"
+    }
+  ]
+}
