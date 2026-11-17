@@ -1,5 +1,6 @@
 import json
 import os
+import re
 import requests
 from operator import itemgetter
 from urllib.parse import urlunsplit
@@ -28,21 +29,49 @@ rss_urls = {
 }
 
 keywords = [
-    "russia", "ukraine", "nato", "europe", "missile", "military", "war",
-    "nuclear", "china", "iran", "cyber", "ransomware", "breach", "hack"
+    "russia", "russian", "ukraine", "ukrainian", "nato", "europe", "missile",
+    "military", "war", "nuclear", "china", "chinese", "iran", "iranian",
+    "cyber", "ransomware", "breach", "hack", "outage", "strike"
 ]
 
 def classify_theater(title, source):
     t = title.lower()
-    if source in ("BLEEPING COMPUTER", "THE HACKER NEWS") or any(w in t for w in ["cyber", "hack", "ransomware", "malware", "breach", "vulnerability", "backdoor", "phishing"]):
+    if source in ("BLEEPING COMPUTER", "THE HACKER NEWS") or any(w in t for w in [
+        "cyber", "hack", "ransomware", "malware", "breach", "vulnerability",
+        "backdoor", "phishing", "outage", "nsa", "ddos", "flaw"
+    ]):
         return "CYBER"
-    if any(w in t for w in ["russia", "ukraine", "nato", "poland", "estonia", "finland", "baltic", "europe", "moscow", "kyiv", "crimea", "crimean", "kremlin"]):
+    if any(w in t for w in [
+        "russia", "russian", "putin", "ukraine", "ukrainian", "nato", "poland",
+        "estonia", "finland", "lithuania", "lithuanian", "latvia", "baltic",
+        "europe", "moscow", "kyiv", "crimea", "crimean", "kremlin"
+    ]):
         return "EUROPE"
-    if any(w in t for w in ["iran", "israel", "israeli", "gaza", "west bank", "palestinian", "houthi", "yemen", "iraq", "syria", "syrian", "hezbollah", "hormuz", "red sea", "lebanon", "idf"]):
+    if any(w in t for w in [
+        "iran", "iranian", "israel", "israeli", "gaza", "west bank", "palestinian",
+        "houthi", "yemen", "iraq", "syria", "syrian", "hezbollah", "hormuz",
+        "red sea", "lebanon", "idf", "knesset"
+    ]):
         return "MIDEAST"
-    if any(w in t for w in ["china", "taiwan", "japan", "korea", "pacific", "philippines", "beijing", "south china sea"]):
+    if any(w in t for w in [
+        "china", "chinese", "xi", "taiwan", "japan", "korea", "pacific",
+        "philippines", "beijing", "south china sea", "asia"
+    ]):
         return "INDOPACIFIC"
     return "GLOBAL"
+
+def is_duplicate_story(title, existing_items):
+    words = set(re.findall(r'\b[a-z0-9]{4,}\b', title.lower()))
+    if len(words) < 3:
+        return False
+    for item in existing_items[:25]:
+        existing_words = set(re.findall(r'\b[a-z0-9]{4,}\b', item["title"].lower()))
+        if not existing_words:
+            continue
+        overlap = len(words & existing_words) / min(len(words), len(existing_words))
+        if overlap >= 0.65:
+            return True
+    return False
 
 new_items = []
 for source, url in rss_urls.items():
@@ -55,14 +84,15 @@ for source, url in rss_urls.items():
             link = item.find('link').get_text(strip=True) if item.find('link') else "#"
             if link not in intel_log["seen_links"]:
                 intel_log["seen_links"].append(link)
-                new_items.append({
-                    "time": datetime.now(timezone.utc).strftime("%m/%d %H:%M UTC"),
-                    "source": source,
-                    "title": title,
-                    "link": link,
-                    "priority": any(k in title.lower() for k in keywords),
-                    "theater": classify_theater(title, source)
-                })
+                if not is_duplicate_story(title, new_items + intel_log.get("recent_items", [])):
+                    new_items.append({
+                        "time": datetime.now(timezone.utc).strftime("%m/%d %H:%M UTC"),
+                        "source": source,
+                        "title": title,
+                        "link": link,
+                        "priority": any(k in title.lower() for k in keywords),
+                        "theater": classify_theater(title, source)
+                    })
     except Exception:
         pass
 
@@ -74,8 +104,15 @@ with open(LOG_FILE, 'w', encoding='utf-8') as f:
     json.dump(intel_log, f, indent=2)
 
 # 3. Group Headlines by Theater & Count Keyword Pulse
-pulse_terms = ["russia", "ukraine", "nato", "iran", "china", "cyber"]
-pulse_counts = {k: 0 for k in pulse_terms}
+pulse_rules = {
+    "russia": ["russia", "russian", "putin", "moscow", "kremlin"],
+    "ukraine": ["ukraine", "ukrainian", "kyiv", "crimea", "crimean"],
+    "nato": ["nato", "lithuania", "poland", "estonia", "finland", "baltic"],
+    "iran": ["iran", "iranian", "tehran", "hormuz"],
+    "china": ["china", "chinese", "beijing", "taiwan", "xi"],
+    "cyber": ["cyber", "hack", "ransomware", "breach", "malware", "backdoor", "outage", "phishing"]
+}
+pulse_counts = {k: 0 for k in pulse_rules}
 
 theaters = {
     "EUROPE": ("🌍 EASTERN EUROPE & NATO", []),
@@ -88,15 +125,12 @@ theaters = {
 sorted_items = sorted(combined_items, key=lambda x: x["priority"], reverse=True)
 for item in sorted_items:
     t_lower = item["title"].lower()
-    t_key = item.get("theater", "GLOBAL")
-    if t_key not in theaters:
-        t_key = "GLOBAL"
+    t_key = classify_theater(item["title"], item["source"])
 
-    for k in pulse_terms:
-        if k == "cyber":
-            if t_key == "CYBER" or any(w in t_lower for w in ["cyber", "hack", "ransomware", "breach", "malware", "backdoor"]):
-                pulse_counts[k] += 1
-        elif k in t_lower:
+    for k, terms in pulse_rules.items():
+        if k == "cyber" and t_key == "CYBER":
+            pulse_counts[k] += 1
+        elif any(re.search(rf'\b{re.escape(w)}\b', t_lower) for w in terms):
             pulse_counts[k] += 1
 
     badge = "🚨 <b style='color:#ff4b4b;'>[PRIORITY]</b>" if item["priority"] else "•"
@@ -122,7 +156,7 @@ theater_html = "".join(theater_blocks) or "<div style='color:#8b949e;'>Awaiting 
 pulse_html = "".join([
     "<div style='display:flex; justify-content:space-between; background:#0d1117; border:1px solid #30363d; padding:6px 10px; margin-bottom:6px; border-radius:4px; font-size:12px;'>"
     f"<span style='color:#8b949e;'>{k.upper()}</span>"
-    f"<span style='color:{'#ff4b4b' if c > 0 else '#00ff41'}; font-weight:bold;'>{c} hits</span>"
+    f"<span style='color:{'#ff4b4b' if c > 0 else '#00ff41'}; font-weight:bold;'>{c} {'hit' if c == 1 else 'hits'}</span>"
     "</div>"
     for k, c in pulse_counts.items()
 ])
@@ -180,16 +214,16 @@ except Exception:
         "<div style='color:#8b949e; font-size:12px; margin-top:4px;'>UNAVAILABLE</div></div>"
     )
 
-# 6. Interactive Dark Vector Map (Civilian Airspace + Dedicated Military Radar + Seismic + NASA Events)
+# 6. Interactive Dark Vector Map (Civilian Airspace + Global Military Radar + Seismic + NASA Events)
 fig = go.Figure()
 
 # 6A. Civilian Airspace (OpenSky Network)
 civ_lats, civ_lons, civ_text = [], [], []
 get_state_fields = itemgetter(1, 2, 5, 6, 7)
 try:
-    opensky_url = urlunsplit(('https', '.'.join(['opensky-network', 'org']), '/api/states/all', 'lamin=20.0&lomin=-15.0&lamax=65.0&lomax=65.0', ''))
+    opensky_url = urlunsplit(('https', '.'.join(['opensky-network', 'org']), '/api/states/all', 'lamin=15.0&lomin=-25.0&lamax=68.0&lomax=145.0', ''))
     states = requests.get(opensky_url, headers=HEADERS, timeout=10).json().get("states", []) or []
-    for s in states[:220]:
+    for s in states[:260]:
         raw_call, country, lon, lat, raw_alt = get_state_fields(s)
         callsign = (raw_call or "").strip() or "CIVIL"
         alt = int(raw_alt) if raw_alt else 0
@@ -200,12 +234,12 @@ try:
     fig.add_trace(go.Scattergeo(
         lat=civ_lats, lon=civ_lons, text=civ_text, hoverinfo='text',
         mode='markers', name='Civilian Air',
-        marker=dict(size=4, color='#00ff41', opacity=0.55)
+        marker=dict(size=4, color='#00ff41', opacity=0.5)
     ))
 except Exception:
     pass
 
-# 6B. Dedicated Military & Reconnaissance Aircraft Radar (api.adsb.lol/v2/mil)
+# 6B. Dedicated Global Military & Reconnaissance Aircraft Radar (api.adsb.lol/v2/mil)
 mil_lats, mil_lons, mil_text = [], [], []
 try:
     mil_url = urlunsplit(('https', '.'.join(['api', 'adsb', 'lol']), '/v2/mil', '', ''))
@@ -216,13 +250,12 @@ try:
         lat = ac.get("lat")
         lon = ac.get("lon")
         if lat is not None and lon is not None:
-            if 18.0 <= float(lat) <= 68.0 and -15.0 <= float(lon) <= 68.0:
-                callsign = (ac.get("flight") or ac.get("r") or ac.get("hex") or "MIL-AC").strip()
-                ac_type = ac.get("t") or "Military"
-                alt = ac.get("alt_baro") or "N/A"
-                mil_lats.append(float(lat))
-                mil_lons.append(float(lon))
-                mil_text.append(f"MIL: {callsign} [{ac_type}] | Alt: {alt}ft")
+            callsign = (ac.get("flight") or ac.get("r") or ac.get("hex") or "MIL-AC").strip()
+            ac_type = ac.get("t") or "Military"
+            alt = ac.get("alt_baro") or "N/A"
+            mil_lats.append(float(lat))
+            mil_lons.append(float(lon))
+            mil_text.append(f"MIL: {callsign} [{ac_type}] | Alt: {alt}ft")
     fig.add_trace(go.Scattergeo(
         lat=mil_lats, lon=mil_lons, text=mil_text, hoverinfo='text',
         mode='markers', name='Military / Recon',
@@ -360,8 +393,19 @@ except Exception:
     pass
 local_html = "".join(local_list)
 
-fig.update_geos(projection_type="natural earth", showcoastlines=True, coastlinecolor="#30363d", showland=True, landcolor="#161b22", showocean=True, oceancolor="#090d16", showcountries=True, countrycolor="#30363d", lataxis_range=(20, 65), lonaxis_range=(-20, 80))
-fig.update_layout(margin=dict(l=0, r=0, t=0, b=0), height=380, paper_bgcolor="#0d1117", plot_bgcolor="#0d1117", legend=dict(orientation="h", yanchor="bottom", y=0.01, xanchor="left", x=0.01, font=dict(color="#e6edf3", size=10), bgcolor="rgba(13,17,23,0.8)"))
+fig.update_geos(
+    projection_type="natural earth",
+    showcoastlines=True, coastlinecolor="#30363d",
+    showland=True, landcolor="#161b22",
+    showocean=True, oceancolor="#090d16",
+    showcountries=True, countrycolor="#30363d",
+    lataxis_range=(-55, 72), lonaxis_range=(-140, 165)
+)
+fig.update_layout(
+    margin=dict(l=0, r=0, t=0, b=0), height=400,
+    paper_bgcolor="#0d1117", plot_bgcolor="#0d1117",
+    legend=dict(orientation="h", yanchor="bottom", y=0.01, xanchor="left", x=0.01, font=dict(color="#e6edf3", size=10), bgcolor="rgba(13,17,23,0.8)")
+)
 map_html = fig.to_html(include_plotlyjs='cdn', full_html=False)
 
 now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
