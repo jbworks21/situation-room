@@ -34,9 +34,162 @@
     "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
     "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
     "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-    "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html"
+    "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
+    "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/17/ethiopia-moyale-clashes-disrupt-livelihoods-as-territorial-dispute-deepens?traffic_source=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+    "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/",
+    "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
+    "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+    "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+    "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+    "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/"
   ],
   "recent_items": [
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BBC WORLD",
+      "title": "Houthi rebel advance in Yemen may further destabilise global economy",
+      "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BBC WORLD",
+      "title": "When will we see Robert Pattinson as Bond in cinemas?",
+      "link": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BBC WORLD",
+      "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
+      "link": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BBC WORLD",
+      "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
+      "link": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Yemen army reports 661 attacks on Houthis amid Houthi push towards Aden",
+      "link": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
+      "link": "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "EU countries announce migrant deportation centre in Rwanda",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Ukraine holds peace talks with US, Europe as conflict escalates",
+      "link": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "UK seeks closer ties with EU after Brexit fail",
+      "link": "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Ethiopia Moyale clashes disrupt livelihoods as territorial dispute deepens",
+      "link": "https://www.aljazeera.com/news/2026/11/17/ethiopia-moyale-clashes-disrupt-livelihoods-as-territorial-dispute-deepens?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Live: Houthis advance in Yemen as tankers hit sea mines in Strait of Hormuz",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "First permanently assigned F-15EXs touch down at Kadena Air Base",
+      "link": "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "US Army takes \u2018urgent\u2019 action to build concrete bunkers across the Middle East",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
+      "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
+      "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
+      "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 01:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/16 18:09 UTC",
       "source": "BBC WORLD",
@@ -259,62 +412,6 @@
       "title": "Anthropic\u2019s Claude Fable 5.2 blocks fewer security tasks, while Mythos gets better at finding bugs",
       "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
       "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Google Finds Hackers Using AI Agents to Build and Run Exploits From Software Patches",
-      "link": "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "\u26a1 Weekly Recap: N-able 0-Days, Windows 0-Days, Chrome 0-Days, Fridge 0-Days, and More Bad Days",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Six Unpatched Danfoss Refrigeration Controller Flaws Could Allow Remote Takeover Without Login",
-      "link": "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Retadup Worm Resurfaces 7 Years After Takedown to Spread CoffeeLoader Malware",
-      "link": "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "SANSAR Linux Cryptomining Malware Uses Modified NVIDIA Library to Hide GPU Activity",
-      "link": "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Amazon Uncovers AI Agent Campaign Targeting LiteLLM, Dify, and Other Apps for API Keys",
-      "link": "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "BO Team Exploits Log4Shell in VMware vCenter, Compromises Russian Firm's Code-Signing Server",
-      "link": "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-      "priority": true,
       "theater": "CYBER"
     }
   ]
