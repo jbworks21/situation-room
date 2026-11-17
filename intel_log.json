@@ -72,9 +72,252 @@
     "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
     "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
     "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-    "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html"
+    "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
+    "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/mozambique-opposition-leader-goes-on-trial-on-terrorism-charges?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/indian-limbo-skater-breaks-world-record?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/17/jensen-huang-to-testify-before-us-house-committees-next-month?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/17/israeli-forces-invade-syrian-village-leaving-homes-damaged?traffic_source=rss",
+    "https://www.defensenews.com/global/europe/2026/11/17/finlands-iceye-bids-e2-billion-for-italian-rocket-maker-avio/",
+    "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
+    "https://www.defensenews.com/global/the-americas/2026/11/17/trump-seeks-nuclear-cuts-at-summit-with-putin-and-xi-but-prospects-are-low/",
+    "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/",
+    "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
+    "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+    "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+    "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+    "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+    "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+    "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+    "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+    "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
   ],
   "recent_items": [
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "How the attack on Crimean Bridge unfolded",
+      "link": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
+      "link": "https://www.bbc.co.uk/news/articles/cwx2en2vrxmdo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
+      "link": "https://www.bbc.co.uk/news/articles/crq5vlxxx32no?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "US loses measles elimination status after 26 years amid record case numbers",
+      "link": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+      "link": "https://www.bbc.co.uk/news/articles/cqrlg377638yo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BBC WORLD",
+      "title": "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+      "link": "https://www.bbc.co.uk/news/articles/cq7825234lgmo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "NSA\u2019s classified internal communications network reportedly faces outage",
+      "link": "https://www.aljazeera.com/news/2026/11/17/nsas-classified-internal-communications-network-reportedly-faces-outage?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Monster waves threaten California coast as storms intensify",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/aje-onl-nf_monster-waves-threaten-california-coast-171126?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Mozambique opposition leader goes on trial on terrorism charges",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/mozambique-opposition-leader-goes-on-trial-on-terrorism-charges?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Indian limbo skater breaks world record",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/indian-limbo-skater-breaks-world-record?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli settler pogrom kills Palestinian woman, wounds 10 people",
+      "link": "https://www.aljazeera.com/news/2026/11/17/israeli-settler-pogrom-kills-palestinian-woman-wounds-10-people?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Jensen Huang agrees to testify before US House, says can resume CEO role",
+      "link": "https://www.aljazeera.com/economy/2026/11/17/jensen-huang-to-testify-before-us-house-committees-next-month?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli forces invade Syrian village leaving homes damaged",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/israeli-forces-invade-syrian-village-leaving-homes-damaged?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Finland\u2019s Iceye bids \u20ac2 billion for Italian rocket maker Avio",
+      "link": "https://www.defensenews.com/global/europe/2026/11/17/finlands-iceye-bids-e2-billion-for-italian-rocket-maker-avio/",
+      "priority": false,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Lithuanian president\u00a0says US troop rotations will continue beyond latest deployment",
+      "link": "https://www.defensenews.com/global/europe/2026/11/17/lithuanian-president-says-us-troop-rotations-will-continue-beyond-latest-deployment/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Trump seeks nuclear cuts at summit with Putin and Xi, but prospects are low",
+      "link": "https://www.defensenews.com/global/the-americas/2026/11/17/trump-seeks-nuclear-cuts-at-summit-with-putin-and-xi-but-prospects-are-low/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Pentagon fails ninth straight audit despite progress in organizing finances",
+      "link": "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "New pact positions the Philippines as a defense hub for Australian troops",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Researchers hijack Hugging Face account for popular Kokoro AI model",
+      "link": "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Tor releases emergency update amid ongoing DDoS attack",
+      "link": "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Flipper Devices launches $399 \u2018Flipper One\u2019 Linux-based multi-tool",
+      "link": "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Inside Modern Phishing Kits Built to Steal Microsoft 365 Sessions",
+      "link": "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft testing Remote Lock for lost or stolen Windows devices",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
+      "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
+      "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
+      "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/17 19:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
+      "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
     {
       "time": "11/17 10:23 UTC",
       "source": "BBC WORLD",
@@ -218,222 +461,6 @@
       "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
       "priority": true,
       "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hijacked Optimizely Scripts Served Card Skimmer and iOS Exploit Kits to CNN, BBC and Zoom Visitors",
-      "link": "https://thehackernews.com/2026/11/hijacked-optimizely-scripts-served-card.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "ConnectWise Warns ScreenConnect Attacks Continue as SCKit Targets Unpatched Systems",
-      "link": "https://thehackernews.com/2026/11/connectwise-warns-screenconnect-attacks.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "N-able Patches 17 N-central Flaws as Attackers Exploit Earlier Bugs to Deploy Crypto Miners",
-      "link": "https://thehackernews.com/2026/11/n-able-patches-17-n-central-flaws-as.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BBC WORLD",
-      "title": "Houthi rebel advance in Yemen may further destabilise global economy",
-      "link": "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BBC WORLD",
-      "title": "When will we see Robert Pattinson as Bond in cinemas?",
-      "link": "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BBC WORLD",
-      "title": "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-      "link": "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BBC WORLD",
-      "title": "Lindsay Clancy to face retrial next year for deaths of her three children",
-      "link": "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "Yemen army reports 661 attacks on Houthis amid Houthi push towards Aden",
-      "link": "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "Irish court jails man for life over Dublin knife attack that sparked riots",
-      "link": "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "EU countries announce migrant deportation centre in Rwanda",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "Ukraine holds peace talks with US, Europe as conflict escalates",
-      "link": "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "UK seeks closer ties with EU after Brexit fail",
-      "link": "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "Ethiopia Moyale clashes disrupt livelihoods as territorial dispute deepens",
-      "link": "https://www.aljazeera.com/news/2026/11/17/ethiopia-moyale-clashes-disrupt-livelihoods-as-territorial-dispute-deepens?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "AL JAZEERA",
-      "title": "Live: Houthis advance in Yemen as tankers hit sea mines in Strait of Hormuz",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "First permanently assigned F-15EXs touch down at Kadena Air Base",
-      "link": "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "US Army takes \u2018urgent\u2019 action to build concrete bunkers across the Middle East",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
-      "link": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Google Project Zero cuts bug disclosures to 30 days amid AI threats",
-      "link": "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "California sues OpenAI over AI agents escaping sandboxes, hacking firms",
-      "link": "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 01:56 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Barracuda links cloud breach to ARTEX AI-powered cyberattack",
-      "link": "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Five EU countries announce migrant deportation centre in Rwanda",
-      "link": "https://www.bbc.co.uk/news/articles/cw987343352go?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Yemeni forces retreat to defend port city from Houthis",
-      "link": "https://www.bbc.co.uk/news/articles/cqvg2xgyvnjpo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-      "link": "https://www.bbc.co.uk/news/articles/cry49plv8v3go?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Man sentenced over 'horrific' attempted murder of three children",
-      "link": "https://www.bbc.co.uk/news/articles/cr0qj0nzwj34o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Raye, Rosal\u00eda and Dolly Parton recognised in Grammy nominations",
-      "link": "https://www.bbc.co.uk/news/articles/cq9vwkggpx73o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-      "link": "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/16 18:09 UTC",
-      "source": "BBC WORLD",
-      "title": "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
-      "link": "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "MIDEAST"
     }
   ]
 }
