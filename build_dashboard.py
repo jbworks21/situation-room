@@ -34,13 +34,13 @@ keywords = [
 
 def classify_theater(title, source):
     t = title.lower()
-    if source in ("BLEEPING COMPUTER", "THE HACKER NEWS") or any(w in t for w in ["cyber", "hack", "ransomware", "malware", "breach", "vulnerability"]):
+    if source in ("BLEEPING COMPUTER", "THE HACKER NEWS") or any(w in t for w in ["cyber", "hack", "ransomware", "malware", "breach", "vulnerability", "backdoor", "phishing"]):
         return "CYBER"
-    if any(w in t for w in ["russia", "ukraine", "nato", "poland", "estonia", "finland", "baltic", "europe", "moscow", "kyiv"]):
+    if any(w in t for w in ["russia", "ukraine", "nato", "poland", "estonia", "finland", "baltic", "europe", "moscow", "kyiv", "crimea", "crimean", "kremlin"]):
         return "EUROPE"
-    if any(w in t for w in ["iran", "israel", "gaza", "houthi", "yemen", "iraq", "syria", "hezbollah", "hormuz", "red sea", "lebanon"]):
+    if any(w in t for w in ["iran", "israel", "israeli", "gaza", "west bank", "palestinian", "houthi", "yemen", "iraq", "syria", "syrian", "hezbollah", "hormuz", "red sea", "lebanon", "idf"]):
         return "MIDEAST"
-    if any(w in t for w in ["china", "taiwan", "japan", "korea", "pacific", "philippines", "beijing"]):
+    if any(w in t for w in ["china", "taiwan", "japan", "korea", "pacific", "philippines", "beijing", "south china sea"]):
         return "INDOPACIFIC"
     return "GLOBAL"
 
@@ -88,9 +88,17 @@ theaters = {
 sorted_items = sorted(combined_items, key=lambda x: x["priority"], reverse=True)
 for item in sorted_items:
     t_lower = item["title"].lower()
+    t_key = item.get("theater", "GLOBAL")
+    if t_key not in theaters:
+        t_key = "GLOBAL"
+
     for k in pulse_terms:
-        if k in t_lower:
+        if k == "cyber":
+            if t_key == "CYBER" or any(w in t_lower for w in ["cyber", "hack", "ransomware", "breach", "malware", "backdoor"]):
+                pulse_counts[k] += 1
+        elif k in t_lower:
             pulse_counts[k] += 1
+
     badge = "🚨 <b style='color:#ff4b4b;'>[PRIORITY]</b>" if item["priority"] else "•"
     entry_html = (
         "<div style='margin:8px 0; padding-bottom:8px; border-bottom:1px solid #30363d; font-size:13px;'>"
@@ -98,9 +106,6 @@ for item in sorted_items:
         f"{badge} <a href='{item['link']}' target='_blank' style='color:#58a6ff; text-decoration:none;'>{item['title']}</a>"
         "</div>"
     )
-    t_key = item.get("theater", "GLOBAL")
-    if t_key not in theaters:
-        t_key = "GLOBAL"
     theaters[t_key][1].append(entry_html)
 
 theater_blocks = []
@@ -211,7 +216,6 @@ try:
         lat = ac.get("lat")
         lon = ac.get("lon")
         if lat is not None and lon is not None:
-            # Filter to Europe, Mediterranean, Black Sea & Middle East theater
             if 18.0 <= float(lat) <= 68.0 and -15.0 <= float(lon) <= 68.0:
                 callsign = (ac.get("flight") or ac.get("r") or ac.get("hex") or "MIL-AC").strip()
                 ac_type = ac.get("t") or "Military"
@@ -373,6 +377,11 @@ full_page = f"""<!DOCTYPE html>
   body {{ background-color: #090d16; color: #e6edf3; font-family: 'Courier New', monospace; margin: 0; padding: 12px; }}
   .container {{ max-width: 1240px; margin: 0 auto; background: #0d1117; border: 1px solid #30363d; border-radius: 8px; padding: 16px; }}
   .header {{ display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; border-bottom: 1px solid #30363d; padding-bottom: 12px; margin-bottom: 16px; gap: 8px; }}
+  .clock-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin-bottom: 14px; }}
+  .clock-card {{ background: #0d1117; border: 1px solid #30363d; border-top: 2px solid #00ff41; padding: 6px 8px; border-radius: 4px; text-align: center; }}
+  .clock-city {{ color: #8b949e; font-size: 10px; letter-spacing: 0.5px; }}
+  .clock-time {{ color: #00ff41; font-weight: bold; font-size: 15px; margin: 2px 0; }}
+  .clock-date {{ color: #6e7681; font-size: 10px; }}
   .ticker-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; margin-bottom: 18px; }}
   .main-grid {{ display: grid; grid-template-columns: 2fr 1fr; gap: 18px; }}
   .panel {{ background: #161b22; padding: 14px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 16px; }}
@@ -385,6 +394,7 @@ full_page = f"""<!DOCTYPE html>
     <h2 style="color:#00ff41; margin:0; font-size:17px;">🌐 GLOBAL SITUATION ROOM // EXPANDED OSINT</h2>
     <span style="color:#00ff41; font-size:12px;">UPDATED: {now_str} (+{len(new_items)} NEW)</span>
   </div>
+  <div id="world-clocks" class="clock-grid"></div>
   <div class="ticker-grid">{''.join(market_list)}{kp_card}</div>
   <div class="panel">
     <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-bottom:10px; gap:6px;">
@@ -426,6 +436,39 @@ full_page = f"""<!DOCTYPE html>
     </div>
   </div>
 </div>
+<script>
+  const ZONES = [
+    {{ label: "OCEANSIDE (PT)", tz: "America/Los_Angeles" }},
+    {{ label: "WASHINGTON DC", tz: "America/New_York" }},
+    {{ label: "ZULU (UTC)", tz: "UTC" }},
+    {{ label: "LONDON", tz: "Europe/London" }},
+    {{ label: "KYIV", tz: "Europe/Kyiv" }},
+    {{ label: "TEL AVIV", tz: "Asia/Jerusalem" }},
+    {{ label: "TAIPEI", tz: "Asia/Taipei" }},
+    {{ label: "TOKYO", tz: "Asia/Tokyo" }}
+  ];
+
+  function updateClocks() {{
+    const now = new Date();
+    const container = document.getElementById("world-clocks");
+    container.innerHTML = ZONES.map(z => {{
+      const timeStr = new Intl.DateTimeFormat("en-GB", {{
+        timeZone: z.tz, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false
+      }}).format(now);
+      const dateStr = new Intl.DateTimeFormat("en-US", {{
+        timeZone: z.tz, month: "short", day: "2-digit"
+      }}).format(now).toUpperCase();
+      return `<div class="clock-card">
+        <div class="clock-city">${{z.label}}</div>
+        <div class="clock-time">${{timeStr}}</div>
+        <div class="clock-date">${{dateStr}}</div>
+      </div>`;
+    }}).join("");
+  }}
+
+  updateClocks();
+  setInterval(updateClocks, 1000);
+</script>
 </body>
 </html>"""
 
