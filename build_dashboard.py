@@ -161,11 +161,18 @@ pulse_html = "".join([
     for k, c in pulse_counts.items()
 ])
 
-# 4. Market Stress Bar
-tickers = {"BRENT OIL": "BZ=F", "GOLD": "GC=F", "LOCKHEED (LMT)": "LMT", "BITCOIN": "BTC-USD"}
+# 4. Market Stress Bar (DOW, S&P 500, NASDAQ, Crude Oil, Gold, USD/JPY)
+tickers = [
+    ("DOW", "^DJI", ""),
+    ("S&P 500", "^GSPC", ""),
+    ("NASDAQ", "^IXIC", ""),
+    ("CRUDE OIL", "CL=F", "$"),
+    ("GOLD", "GC=F", "$"),
+    ("USD/JPY", "JPY=X", "¥")
+]
 market_list = []
 get_first = itemgetter(0)
-for label, sym in tickers.items():
+for label, sym, prefix in tickers:
     try:
         y_url = urlunsplit(('https', '.'.join(['query1', 'finance', 'yahoo', 'com']), f'/v8/finance/chart/{sym}', 'interval=1d&range=1d', ''))
         y_res = requests.get(y_url, headers=HEADERS, timeout=8)
@@ -176,7 +183,7 @@ for label, sym in tickers.items():
         market_list.append(
             "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
             f"<div style='color:#8b949e; font-size:11px;'>{label}</div>"
-            f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>${price:,.2f}</div>"
+            f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>{prefix}{price:,.2f}</div>"
             f"<div style='color:{color}; font-size:11px;'>{arrow} {pct:+.2f}%</div>"
             "</div>"
         )
@@ -426,7 +433,7 @@ full_page = f"""<!DOCTYPE html>
   .clock-city {{ color: #8b949e; font-size: 10px; letter-spacing: 0.5px; }}
   .clock-time {{ color: #00ff41; font-weight: bold; font-size: 15px; margin: 2px 0; }}
   .clock-date {{ color: #6e7681; font-size: 10px; }}
-  .ticker-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(135px, 1fr)); gap: 10px; margin-bottom: 18px; }}
+  .ticker-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 10px; margin-bottom: 18px; }}
   .main-grid {{ display: grid; grid-template-columns: 2fr 1fr; gap: 18px; }}
   .panel {{ background: #161b22; padding: 14px; border-radius: 6px; border: 1px solid #30363d; margin-bottom: 16px; }}
   @media (max-width: 820px) {{ .main-grid {{ grid-template-columns: 1fr; }} }}
