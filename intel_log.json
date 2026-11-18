@@ -99,9 +99,198 @@
     "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
     "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
     "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-    "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html"
+    "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
+    "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/18/forensic-experts-claim-epstein-was-strangled-to-death?traffic_source=rss",
+    "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/",
+    "https://www.defensenews.com/industry/techwatch/2026/11/17/hanwha-transforms-ship-into-floating-multi-rocket-launcher/",
+    "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
+    "https://www.defensenews.com/news/pentagon-congress/2026/11/17/laneve-formally-nominated-for-army-chief-of-staff-role/",
+    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+    "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+    "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+    "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+    "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+    "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+    "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html"
   ],
   "recent_items": [
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BBC WORLD",
+      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
+      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BBC WORLD",
+      "title": "Thomas Markle charged over child sex abuse material in Philippines",
+      "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BBC WORLD",
+      "title": "Russian military plane crashes, killing all 19 on board",
+      "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Protests as Jason Arday\u2019s accuser speaks at Oxford University",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Board of Peace warns Gaza ceasefire faces imminent collapse without action",
+      "link": "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Ecuadorian fishermen sue Trump administration over drone strike",
+      "link": "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "DR Congo\u2019s rival peace efforts fail to halt violence in the east",
+      "link": "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Eisenkot ally elected Knesset speaker with Arab bloc\u2019s backing",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Top IRGC commander in Iraq for talks amid Kataib Hezbollah tensions",
+      "link": "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "AL JAZEERA",
+      "title": "Forensic experts claim Epstein was strangled to death",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/forensic-experts-claim-epstein-was-strangled-to-death?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Acting Navy Secretary Hung Cao faces transparency questions in Senate confirmation hearing",
+      "link": "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Hanwha transforms ship into floating multi-rocket launcher",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/17/hanwha-transforms-ship-into-floating-multi-rocket-launcher/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Watch a large aerial drone evacuate a wounded Ukrainian soldier from the front line",
+      "link": "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "LaNeve formally nominated for Army chief of staff role",
+      "link": "https://www.defensenews.com/news/pentagon-congress/2026/11/17/laneve-formally-nominated-for-army-chief-of-staff-role/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Critical Java4Shell flaw allows RCE attacks on major Java applications",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Cloud keys leaked in Docker Hub images are stolen within seconds",
+      "link": "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Japan takes Fugaku supercomputer offlline after cyberattack",
+      "link": "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Apple reports outages affecting iCloud Mail, AppleCare and more",
+      "link": "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Researchers Claim Two RCE Exploits That Bypass Telegram\u2019s New Android Defenses",
+      "link": "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Oracle to Patch 11 Java Flaws Today as Critical OpenJDK RCE (CVE-2026-114938) Report Emerges",
+      "link": "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/18 01:46 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Trigram Campaign Impersonates About 50 AI and Blockchain Brands to Target Devs with Infostealers",
+      "link": "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
     {
       "time": "11/17 19:16 UTC",
       "source": "BBC WORLD",
@@ -291,174 +480,6 @@
       "source": "THE HACKER NEWS",
       "title": "Hackers Found a Way Around GitHub SHA Pinning. This Webinar Explains How to Close the Gap",
       "link": "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 19:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Researchers Detail iPhone Flaw That Let Apps Record Audio Despite Denied Microphone Permission",
-      "link": "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 19:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "New GitDoor and GraphDoor Backdoors Turn GitHub and SharePoint Into Covert C2 Channels",
-      "link": "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 19:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Apple Tightens macOS App Permissions to Limit Data Access Amid AI Agent Security Risks",
-      "link": "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Crimea bridge shut after Ukrainian strike, as Russia hits Kyiv crossings",
-      "link": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
-      "link": "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
-      "link": "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
-      "link": "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Body of Melbourne Cup horse found dumped in Sydney skip",
-      "link": "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BBC WORLD",
-      "title": "Japan sends up jets after alleged Russian incursion of its airspace",
-      "link": "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Afghanistan women defy Taliban ban to pursue their ambitions in secret",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/afghanistan-women-defy-taliban-ban-to-pursue-their-ambitions-in-secret?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Powering towns on pig manure: How Denmark has transformed energy generation",
-      "link": "https://www.aljazeera.com/economy/2026/11/17/powering-towns-on-pig-manure-how-denmark-has-transformed-energy-generation?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "As Knesset readies for new speaker, Israeli opposition holds powerful role",
-      "link": "https://www.aljazeera.com/news/2026/11/17/as-knesset-readies-for-new-speaker-israeli-opposition-holds-powerful-role?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Journalist who exposed alleged drug links shot dead in Costa Rica",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Kim Jong Un tours North Korea ski resort with daughter Ju Ae",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/kim-jong-un-tours-north-korea-ski-resort-with-daughter-ju-ae?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Irish \u200c\u200c\u200c\u200cboxer Lee Reeves, 31, dies three months after sustaining injuries",
-      "link": "https://www.aljazeera.com/sports/2026/11/17/irish-boxer-lee-reeves-31-dies-three-months-after-sustaining-injuries?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "AL JAZEERA",
-      "title": "Vance calls out \u2018neoconservatives\u2019 over Iran war",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/17/vance-calls-out-neoconservatives-over-iran-war?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "French troops operating in non-combat roles in Ukraine, broadcaster RFI reports",
-      "link": "https://www.defensenews.com/global/europe/2026/11/17/french-troops-operating-in-non-combat-roles-in-ukraine-broadcaster-rfi-reports/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Court clears brothers of $25 million Ethereum crypto heist charges",
-      "link": "https://www.bleepingcomputer.com/news/security/court-clears-brothers-of-25-million-ethereum-crypto-heist-charges/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Uber notifies drivers of data breach affecting nearly 150,000 people",
-      "link": "https://www.bleepingcomputer.com/news/security/uber-notifies-drivers-of-data-breach-affecting-nearly-150-000-people/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Ransomware affiliate suspect extradited to US, faces 27 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/alleged-inc-lynx-ransomware-affiliate-extradited-to-us-faces-27-years-in-prison/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/17 10:23 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Optimizely hack infected CNN, Fox News, BBC, Salesforce sites with malware",
-      "link": "https://www.bleepingcomputer.com/news/security/optimizely-supply-chain-attack-delivers-malware-to-cnn-fox-news-bbc-salesforce-sites/",
       "priority": true,
       "theater": "CYBER"
     }
