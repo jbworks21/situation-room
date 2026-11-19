@@ -161,9 +161,316 @@
     "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
     "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
     "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-    "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html"
+    "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
+    "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
+    "https://www.aljazeera.com/video/inside-story/2026/11/19/will-the-shenzhen-summit-safeguard-world-peace?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/19/how-vaccine-fears-fuelled-a-major-measles-comeback-in-the-us?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/19/trumps-case-against-nyt-and-penguin-random-house-may-proceed-judge?traffic_source=rss",
+    "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+    "https://www.defensenews.com/global/europe/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict/",
+    "https://www.defensenews.com/video/2026/11/19/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+    "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/",
+    "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise/",
+    "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
+    "https://www.defensenews.com/pentagon/2026/11/19/hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement/",
+    "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+    "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+    "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+    "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+    "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+    "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+    "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+    "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+    "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
+    "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+    "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+    "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+    "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
   ],
   "recent_items": [
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+      "link": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+      "link": "https://www.bbc.co.uk/news/articles/c623j4ln97x7o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+      "link": "https://www.bbc.co.uk/news/articles/ckzd9nln5e6go?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+      "link": "https://www.bbc.co.uk/news/articles/c58j484089ewo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+      "link": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+      "link": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BBC WORLD",
+      "title": "Venezuela signs military deal with US less than a year after Maduro's removal",
+      "link": "https://www.bbc.co.uk/news/articles/cmwy8pyqlq5vo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Three arrested during Anthropic IPO protest outside Nasdaq",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/three-arrested-during-anthropic-ipo-protest-outside-nasdaq?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Jerusalem Daily: Israel launches ground offensive in Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/jerusalem-daily-israel-launches-ground-offensive-in-gaza-2?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Rohingya genocide survivor: \u2018perpetrators will have to face consequences\u2019",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/rohingya-genocide-survivor-perpetrators-will-have-to-face?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Why are Bukele\u2019s Salvadoran troops in Haiti and what have they achieved?",
+      "link": "https://www.aljazeera.com/news/2026/11/19/why-are-bukeles-salvadoran-troops-in-haiti-and-what-have-they-achieved?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Will the Shenzhen summit safeguard world peace?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/11/19/will-the-shenzhen-summit-safeguard-world-peace?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "How vaccine fears fuelled a major measles comeback in the US",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/how-vaccine-fears-fuelled-a-major-measles-comeback-in-the-us?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump\u2019s case against NYT and Penguin Random House may proceed: Judge",
+      "link": "https://www.aljazeera.com/economy/2026/11/19/trumps-case-against-nyt-and-penguin-random-house-may-proceed-judge?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "US missile shortages create a range problem, report shows",
+      "link": "https://www.defensenews.com/air/2026/11/19/us-missile-shortages-create-a-range-problem-report-shows/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Denmark ratifies Trump deal over Greenland, hoping to end conflict",
+      "link": "https://www.defensenews.com/global/europe/2026/11/19/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "New tools for troops to gun down drones | Defense News Weekly Full Episode 11.17.26",
+      "link": "https://www.defensenews.com/video/2026/11/19/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Pentagon lacks \u2018overarching plan\u2019 for munitions production, watchdog warns",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/19/pentagon-lacks-overarching-plan-for-munitions-production-watchdog-warns/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "France and Sweden hold first joint nuclear-deterrence exercise",
+      "link": "https://www.defensenews.com/global/europe/2026/11/19/france-and-sweden-hold-first-joint-nuclear-deterrence-exercise/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "F-35C completes first launch and recovery trials on a Ford-class carrier",
+      "link": "https://www.defensenews.com/air/2026/11/19/f-35c-completes-first-launch-and-recovery-trials-on-a-ford-class-carrier/",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Hegseth, in Caracas, announces US-Venezuela military partnership agreement",
+      "link": "https://www.defensenews.com/pentagon/2026/11/19/hegseth-in-caracas-announces-us-venezuela-military-partnership-agreement/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "ASUS warns of critical hard-coded key flaw in Control Center Express",
+      "link": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Transport for London breach exposes 265,000 Oyster card users' data",
+      "link": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "PHP security updates fix 18 flaws, including critical RCE bugs",
+      "link": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Five warning signs of ransomware breach before encryption or data theft",
+      "link": "https://www.bleepingcomputer.com/news/security/five-warning-signs-of-ransomware-breach-before-encryption-or-data-theft/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Critical NGINX \u2018NGINX2Root\u2019 bugs let attackers hijack servers",
+      "link": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Drupal patches critical RCE flaw, warns exploits may surface quickly",
+      "link": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft tests new Edge Lockdown Mode that disables GPU APIs",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-tests-new-edge-lockdown-mode-that-disables-gpu-apis/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "ThreatsDay: GPT-6.2 Jailbreak Flaws, BubbleLoader PNG Malware, $500M Ransom Demands + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "phpAfterShell Explained: How Hackers Could Turn a PHP Session Flaw Into Code Execution",
+      "link": "https://thehackernews.com/2026/11/phpaftershell-explained-how-hackers.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Critical VMware vCenter Flaw (CVSS 9.8) Lets Network Attackers Bypass Authentication",
+      "link": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Drupal Patches Critical Installer Flaw That Could Give Unauthenticated Attackers Control of Sites",
+      "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Everything Is a Web Application, Including Your Firewall",
+      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/19 21:25 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
+      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/18 18:40 UTC",
       "source": "BBC WORLD",
@@ -249,278 +556,6 @@
       "source": "AL JAZEERA",
       "title": "Far-right influencer Jake Lang kicked out of Dearborn council meeting",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/far-right-influencer-jake-lang-kicked-out-of-dearborn-council-meeting?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "What has happened to the $18bn pledged to Trump\u2019s Board of Peace for Gaza?",
-      "link": "https://www.aljazeera.com/news/2026/11/18/what-has-happened-to-the-18bn-pledged-to-trumps-board-of-peace-for-gaza?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Kuwait, Bahrain face new Iran attacks after US strike on Qeshm Island",
-      "link": "https://www.aljazeera.com/news/2026/11/18/kuwait-bahrain-face-new-iran-attacks-after-us-strike-on-qeshm-island?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "World Bank official says Lebanon reconstruction making slow progress",
-      "link": "https://www.aljazeera.com/news/2026/11/18/world-bank-official-says-lebanon-reconstruction-making-slow-progress?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "As UNIFIL winds down, Israeli presence in Lebanon complicates handover process",
-      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/18/as-unifil-winds-down-israeli-presence-in-lebanon-complicates-handover-process/",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "EU proposes \u20ac45 billion Ukraine loan, to be repaid after Russia pays reparations",
-      "link": "https://www.defensenews.com/global/europe/2026/11/18/eu-proposes-e45-billion-ukraine-loan-to-be-repaid-after-russia-pays-reparations/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft\u2019s Agent Framework PyPI package compromised to steal credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/microsofts-agent-framework-pypi-package-compromised-to-steal-credentials/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "From Deepfakes to Helpdesk Impersonation: Why Stronger Verification Matters",
-      "link": "https://www.bleepingcomputer.com/news/security/from-deepfakes-to-helpdesk-impersonation-why-stronger-verification-matters/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Dizigom illegal streaming service with 21M monthly visits shuts down",
-      "link": "https://www.bleepingcomputer.com/news/security/dizigom-illegal-streaming-service-with-21m-monthly-visits-shuts-down/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Apache warns of Roller RCE vulnerability exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/apache-warns-of-roller-rce-vulnerability-exploited-in-attacks/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "New EggStreme Malware Variant Goes Silent to Evade Security Tools in Government Attacks",
-      "link": "https://thehackernews.com/2026/11/eggstreme-hackers-rebuild-malware-with.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "New Attack Bypasses TPM Lockout to Crack Windows Hello and BitLocker PINs in Days, Not Years",
-      "link": "https://thehackernews.com/2026/11/flash-chip-attack-bypasses-tpm-lockout.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "AI Pentesting Checklist for Web Apps: 15 Questions to Ask Before Choosing a Vendor",
-      "link": "https://thehackernews.com/2026/11/ai-pentesting-checklist-for-web-apps-15.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Quality Isn\u2019t The Main Worry About AI Pentesting \u2014 Data Privacy and Production Safety Are",
-      "link": "https://thehackernews.com/2026/11/quality-isnt-main-worry-about-ai.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Exploiting Critical Puppet RCE Flaw Affecting Enterprise Management Servers",
-      "link": "https://thehackernews.com/2026/11/hackers-exploiting-critical-puppet-rce.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "CISA Urges Immediate Patching of Java4Shell Flaw That Could Allow Remote Code Execution",
-      "link": "https://thehackernews.com/2026/11/cisa-urges-immediate-patching-of.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "BBC WORLD",
-      "title": "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-      "link": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "BBC WORLD",
-      "title": "Rubio says US not 'under systemic attack' after series of tech outages",
-      "link": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "BBC WORLD",
-      "title": "Democrats win Alaska Senate race two weeks after midterms counting began",
-      "link": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "Photos: Thousands march in Haiti in support of Salvadoran troops",
-      "link": "https://www.aljazeera.com/gallery/2026/11/18/photos-thousands-march-in-haiti-in-support-of-salvadoran-troops?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "Sandpapergate: Cricket Australia to open forum for players, rules out probe",
-      "link": "https://www.aljazeera.com/sports/2026/11/18/sandpapergate-cricket-australia-to-open-forum-for-players-rules-out-probe?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "India-UK ties outride Modi\u2019s \u2018decolonisation\u2019 rhetoric",
-      "link": "https://www.aljazeera.com/news/2026/11/18/india-uk-ties-outride-modis-decolonisation-rhetoric?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "Myanmar-linked arsenic pollution prompts clean water scramble in Thailand",
-      "link": "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "Paris Hilton and AOC speak against AI-generated deepfakes",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/paris-hilton-and-aoc-speak-against-ai-generated-deepfakes?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "Venezuelan boxer Linares arrested in US and faces deportation, ICE confirms",
-      "link": "https://www.aljazeera.com/sports/2026/11/18/venezuelan-boxer-linares-detained-in-us-and-faces-deportation-ice-confirms?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "AL JAZEERA",
-      "title": "\u2018We want to go back\u2019: Rohingya refugees pin hopes on ICJ genocide verdict",
-      "link": "https://www.aljazeera.com/features/2026/11/18/we-want-to-go-back-rohingya-refugees-pin-hopes-on-icj-genocide-verdict?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft announces Windows Server 2028 with hardened security",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "British Scattered Spider hacker sentenced to 6 years in prison",
-      "link": "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Attackers Compromise Microsoft's Agent Framework PyPI Package to Steal Cloud Credentials",
-      "link": "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Russian COLD RELIC Hackers Use Stolen Google Workspace Data to Breach Second U.S. Organization",
-      "link": "https://thehackernews.com/2026/11/russian-cold-relic-hackers-use-stolen.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 09:45 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Java4Shell Flaw (CVE-2026-114938) Enables Pre-Auth RCE in Jira, Jenkins, Keycloak and More",
-      "link": "https://thehackernews.com/2026/11/java4shell-cve-2026-114938-enables-pre.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 01:46 UTC",
-      "source": "BBC WORLD",
-      "title": "Nvidia says it won't reinstate Huang as firm reports bumper results",
-      "link": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 01:46 UTC",
-      "source": "BBC WORLD",
-      "title": "Thomas Markle charged over child sex abuse material in Philippines",
-      "link": "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/18 01:46 UTC",
-      "source": "BBC WORLD",
-      "title": "Russian military plane crashes, killing all 19 on board",
-      "link": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/18 01:46 UTC",
-      "source": "AL JAZEERA",
-      "title": "Protests as Jason Arday\u2019s accuser speaks at Oxford University",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
       "priority": false,
       "theater": "GLOBAL"
     }
