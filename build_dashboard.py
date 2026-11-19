@@ -63,7 +63,8 @@ def load_intel_log(filepath):
                     "theater": str(item.get("theater", "GLOBAL"))[:20],
                 })
         return {"seen_links": seen, "recent_items": recent}
-    except Exception:
+    except Exception as e:
+        print(f"[WARN] Failed to load {filepath}, resetting state: {e}")
         return default_state
 
 
@@ -152,8 +153,8 @@ for source, url in rss_urls.items():
                         "priority": any(k in title.lower() for k in keywords),
                         "theater": classify_theater(title, source)
                     })
-    except Exception:
-        pass
+    except Exception as e:
+        print(f"[WARN] RSS feed failed ({source}): {e}")
 
 combined_items = (new_items + intel_log.get("recent_items", []))[:45]
 intel_log["recent_items"] = combined_items
@@ -252,7 +253,8 @@ for label, sym, prefix in tickers:
             f"<div style='color:{color}; font-size:11px;'>{arrow} {pct:+.2f}%</div>"
             "</div>"
         )
-    except Exception:
+    except Exception as e:
+        print(f"[WARN] Market ticker failed ({label}): {e}")
         market_list.append(
             "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
             f"<div style='color:#8b949e; font-size:11px;'>{esc(label)}</div><div style='color:#8b949e; font-size:12px;'>N/A</div></div>"
@@ -281,7 +283,8 @@ try:
         f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>G{g_scale} | R{r_scale} | S{s_scale}</div>"
         f"<div style='color:{sw_color}; font-size:11px;'>{sw_status}</div></div>"
     )
-except Exception:
+except Exception as e:
+    print(f"[WARN] NOAA space weather failed: {e}")
     kp_card = (
         "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
         "<div style='color:#8b949e; font-size:11px;'>SOLAR / GPS</div>"
@@ -313,8 +316,8 @@ try:
         mode='markers', name='Civilian Air',
         marker=dict(size=4, color='#00ff41', opacity=0.5)
     ))
-except Exception:
-    pass
+except Exception as e:
+    print(f"[WARN] OpenSky civilian airspace failed: {e}")
 
 # 6B. Dedicated Global Military & Reconnaissance Aircraft Radar (api.adsb.lol/v2/mil)
 mil_lats, mil_lons, mil_text = [], [], []
@@ -338,8 +341,8 @@ try:
         mode='markers', name='Military / Recon',
         marker=dict(size=8, color='#ff4b4b', symbol='triangle-up', line=dict(width=0.8, color='#ffffff'))
     ))
-except Exception:
-    pass
+except Exception as e:
+    print(f"[WARN] adsb.lol military radar failed: {e}")
 
 air_status = f"🟢 {len(civ_lats)} Civil | 🔴 {len(mil_lats)} Military/Recon"
 
@@ -368,7 +371,8 @@ try:
         mag = float(f['properties']['mag'])
         place = esc(f['properties']['place'], max_len=120)
         eq_list.append(f"<div style='margin:6px 0; font-size:12px;'>🟠 <b>M{mag:.1f}</b> - {place}</div>")
-except Exception:
+except Exception as e:
+    print(f"[WARN] USGS global seismic failed: {e}")
     eq_list.append("<div style='color:#8b949e; font-size:12px;'>Seismic feed unavailable.</div>")
 eq_html = "".join(eq_list)
 
@@ -398,7 +402,8 @@ try:
             mode='markers', name='NASA Satellite Hazards',
             marker=dict(size=7, color='#ff00ff', symbol='diamond')
         ))
-except Exception:
+except Exception as e:
+    print(f"[WARN] NASA EONET hazards failed: {e}")
     nasa_list.append("<div style='color:#8b949e; font-size:12px;'>NASA EONET feed unavailable.</div>")
 nasa_html = "".join(nasa_list) or "<div style='color:#8b949e; font-size:12px;'>No active NASA hazard alerts.</div>"
 
@@ -420,7 +425,8 @@ try:
             ioda_list.append(f"<div style='margin:5px 0; font-size:12px;'>🌐 <b>[{level}]</b> {name} connectivity drop</div>")
     else:
         ioda_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ No major national internet outages detected.</div>")
-except Exception:
+except Exception as e:
+    print(f"[WARN] IODA outage monitor failed: {e}")
     ioda_list.append("<div style='color:#8b949e; font-size:12px;'>IODA outage telemetry temporarily unavailable.</div>")
 ioda_html = "".join(ioda_list)
 
@@ -441,7 +447,8 @@ try:
             faa_list.append(f"<div style='margin:5px 0; font-size:12px; color:#ffa500;'>✈️ <b>{arpt}:</b> {reason}</div>")
     else:
         faa_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ US National Airspace: Normal operations (No ground stops).</div>")
-except Exception:
+except Exception as e:
+    print(f"[WARN] FAA NAS status failed: {e}")
     faa_list.append("<div style='color:#8b949e; font-size:12px;'>FAA airspace status unavailable.</div>")
 faa_html = "".join(faa_list)
 
@@ -461,7 +468,8 @@ try:
             local_list.append(f"<div style='margin:5px 0; font-size:12px; color:#ff4b4b;'>⚠️ <b>[{sev}] {ev_name}</b></div>")
     else:
         local_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ NWS Oceanside: No active weather advisories.</div>")
-except Exception:
+except Exception as e:
+    print(f"[WARN] NWS Oceanside alerts failed: {e}")
     local_list.append("<div style='margin:5px 0; font-size:12px; color:#8b949e;'>NWS feed unavailable.</div>")
 
 try:
@@ -478,8 +486,8 @@ try:
                 wvht_ft = float(wvht_m) * 3.28084
                 dpd_val = float(dpd_s) if dpd_s != "MM" else 0.0
                 local_list.append(f"<div style='margin:5px 0; font-size:12px;'>🌊 <b>Buoy 46224 (Oceanside):</b> {wvht_ft:.1f} ft swell @ {dpd_val:.0f}s</div>")
-except Exception:
-    pass
+except Exception as e:
+    print(f"[WARN] NOAA Buoy 46224 failed: {e}")
 
 try:
     leq_url = urlunsplit(('https', '.'.join(['earthquake', 'usgs', 'gov']), '/fdsnws/event/1/query', 'format=geojson&latitude=33.1959&longitude=-117.3795&maxradiuskm=240&minmagnitude=2.5&limit=3', ''))
@@ -492,8 +500,8 @@ try:
         local_list.append(f"<div style='margin:5px 0; font-size:12px;'>📍 <b>M{lmag:.1f}</b> - {lplace}</div>")
     if not leqs:
         local_list.append("<div style='margin:5px 0; font-size:12px; color:#8b949e;'>No M2.5+ tremors within 150 mi recently.</div>")
-except Exception:
-    pass
+except Exception as e:
+    print(f"[WARN] USGS local seismic failed: {e}")
 local_html = "".join(local_list)
 
 fig.update_geos(
@@ -516,13 +524,14 @@ map_html = fig.to_html(include_plotlyjs=True, full_html=False)
 now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
 # 10. Write Mobile-Responsive Standalone HTML Page with Strict CSP
+# Note: connect-src allows 'data:' and 'blob:' so Plotly's bundled Scattergeo map can load internal TopoJSON geometry without making external network requests.
 csp_policy = (
     "default-src 'none'; "
     "script-src 'unsafe-inline' 'unsafe-eval'; "
     "style-src 'unsafe-inline'; "
     "img-src data: blob:; "
     "font-src data:; "
-    "connect-src 'none'; "
+    "connect-src data: blob:; "
     "object-src 'none'; "
     "base-uri 'none'; "
     "form-action 'none'; "
