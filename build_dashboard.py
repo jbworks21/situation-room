@@ -527,11 +527,13 @@ now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 # Allow https://cdn.plot.ly in connect-src so Scattergeo can load world_110m.json
 csp_policy = (
     "default-src 'none'; "
-    "script-src 'unsafe-inline' 'unsafe-eval'; "
+    "script-src 'unsafe-inline' 'unsafe-eval' blob:; "
+    "worker-src blob:; "
+    "child-src blob:; "
     "style-src 'unsafe-inline'; "
     "img-src data: blob:; "
     "font-src data:; "
-    "connect-src https://cdn.plot.ly data: blob:; "
+    "connect-src https://plot.ly data: blob:; "
     "object-src 'none'; "
     "base-uri 'none'; "
     "form-action 'none'; "
