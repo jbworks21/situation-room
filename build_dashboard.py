@@ -64,7 +64,7 @@ def load_intel_log(filepath):
                 })
         return {"seen_links": seen, "recent_items": recent}
     except Exception as e:
-        print(f"[WARN] Failed to load {filepath}, resetting state: {e}")
+        print(f"[WARN] Failed to load {filepath}: {e}")
         return default_state
 
 
@@ -154,7 +154,7 @@ for source, url in rss_urls.items():
                         "theater": classify_theater(title, source)
                     })
     except Exception as e:
-        print(f"[WARN] RSS feed failed ({source}): {e}")
+        print(f"[WARN] RSS feed {source} failed: {e}")
 
 combined_items = (new_items + intel_log.get("recent_items", []))[:45]
 intel_log["recent_items"] = combined_items
@@ -254,7 +254,7 @@ for label, sym, prefix in tickers:
             "</div>"
         )
     except Exception as e:
-        print(f"[WARN] Market ticker failed ({label}): {e}")
+        print(f"[WARN] Market ticker {sym} failed: {e}")
         market_list.append(
             "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
             f"<div style='color:#8b949e; font-size:11px;'>{esc(label)}</div><div style='color:#8b949e; font-size:12px;'>N/A</div></div>"
@@ -403,7 +403,7 @@ try:
             marker=dict(size=7, color='#ff00ff', symbol='diamond')
         ))
 except Exception as e:
-    print(f"[WARN] NASA EONET hazards failed: {e}")
+    print(f"[WARN] NASA EONET failed: {e}")
     nasa_list.append("<div style='color:#8b949e; font-size:12px;'>NASA EONET feed unavailable.</div>")
 nasa_html = "".join(nasa_list) or "<div style='color:#8b949e; font-size:12px;'>No active NASA hazard alerts.</div>"
 
@@ -426,7 +426,7 @@ try:
     else:
         ioda_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ No major national internet outages detected.</div>")
 except Exception as e:
-    print(f"[WARN] IODA outage monitor failed: {e}")
+    print(f"[WARN] IODA outage feed failed: {e}")
     ioda_list.append("<div style='color:#8b949e; font-size:12px;'>IODA outage telemetry temporarily unavailable.</div>")
 ioda_html = "".join(ioda_list)
 
@@ -518,20 +518,20 @@ fig.update_layout(
     legend=dict(orientation="h", yanchor="bottom", y=0.01, xanchor="left", x=0.01, font=dict(color="#e6edf3", size=10), bgcolor="rgba(13,17,23,0.8)")
 )
 
-# Bundle Plotly JS inline (eliminates external CDN supply-chain risk)
+# Bundle Plotly JS inline (eliminates external CDN script supply-chain risk)
 map_html = fig.to_html(include_plotlyjs=True, full_html=False)
 
 now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
 # 10. Write Mobile-Responsive Standalone HTML Page with Strict CSP
-# Note: connect-src allows 'data:' and 'blob:' so Plotly's bundled Scattergeo map can load internal TopoJSON geometry without making external network requests.
+# Allow https://cdn.plot.ly in connect-src so Scattergeo can load world_110m.json
 csp_policy = (
     "default-src 'none'; "
     "script-src 'unsafe-inline' 'unsafe-eval'; "
     "style-src 'unsafe-inline'; "
     "img-src data: blob:; "
     "font-src data:; "
-    "connect-src data: blob:; "
+    "connect-src https://cdn.plot.ly data: blob:; "
     "object-src 'none'; "
     "base-uri 'none'; "
     "form-action 'none'; "
