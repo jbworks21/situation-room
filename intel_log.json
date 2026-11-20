@@ -246,9 +246,154 @@
     "https://thehackernews.com/2026/11/new-linux-kvm-flaw-cve-2026-99312-lets.html",
     "https://thehackernews.com/2026/11/the-path-to-ai-autonomy-in-soc.html",
     "https://thehackernews.com/2026/11/sonicwall-warns-gen-6-firewalls-wont.html",
-    "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html"
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-cisco.html",
+    "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_iraq-pm-targets-militia-stronghold-jurf-al-sakhar-201126?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_trump-tax-us-tech-firms-ai-data-centres-abroad-201126?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+    "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+    "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+    "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+    "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+    "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html"
   ],
   "recent_items": [
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BBC WORLD",
+      "title": "UK to explore even closer ties with EU after agreeing deal, says Burnham",
+      "link": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1lj4yjxno?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BBC WORLD",
+      "title": "French police officers sentenced for beating of music producer Michel Zecler",
+      "link": "https://www.bbc.co.uk/news/articles/ck9d7e9wvvweo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BBC WORLD",
+      "title": "G\u00e9rard Depardieu and French author investigated over sexual allegations",
+      "link": "https://www.bbc.co.uk/news/articles/c9ly43pj10mvo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Trump threatens ban on US firms building AI data centres overseas",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Fossil fuel talks deadlock pushes COP31 climate summit into overtime",
+      "link": "https://www.aljazeera.com/news/2026/11/20/fossil-fuel-talks-deadlock-pushes-cop31-climate-summit-into-overtime?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "US lawmakers push for tougher AI chip rules amid China export crackdown",
+      "link": "https://www.aljazeera.com/economy/2026/11/20/us-lawmakers-push-for-tougher-ai-chip-rules-amid-china-export-crackdown?traffic_source=rss",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Iraq PM targets militia stronghold in bid to assert state control",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/aje-onl-nf_iraq-pm-targets-militia-stronghold-jurf-al-sakhar-201126?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump defends Putin relationship, warns AI data centres must stay in US",
+      "link": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
+      "link": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Can the UK and EU turn the page on Brexit?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
+      "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
+      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/20 23:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
+      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/20 17:07 UTC",
       "source": "BBC WORLD",
@@ -480,134 +625,6 @@
       "link": "https://www.aljazeera.com/opinions/2026/11/20/the-gambia-stood-up-for-the-rohingya-now-the-world-must-act?traffic_source=rss",
       "priority": false,
       "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "AL JAZEERA",
-      "title": "EU and Britain to agree steps towards relations reset",
-      "link": "https://www.aljazeera.com/news/2026/11/20/eu-and-britain-to-agree-steps-towards-relations-reset?traffic_source=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "AL JAZEERA",
-      "title": "Sandpapergate: Australian gov\u2019t demands CA to ensure transparency in forum",
-      "link": "https://www.aljazeera.com/sports/2026/11/20/sandpapergate-australia-ball-tampering-2018-scandal-cricket-government-bancroft-cummins?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "AL JAZEERA",
-      "title": "\u2018We don\u2019t want our future decided by the military\u2019: Young Germans protest",
-      "link": "https://www.aljazeera.com/news/2026/11/20/we-dont-want-our-future-decided-by-the-military-young-germans-protest?traffic_source=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "AL JAZEERA",
-      "title": "Tashima says Balogun red card row at World Cup prompted FIFA presidency bid",
-      "link": "https://www.aljazeera.com/sports/2026/11/20/kozo-tashima-japan-fifa-president-election-balogun-red-card-world-cup-infantino?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "AL JAZEERA",
-      "title": "US maritime agency warned Iran blockade was adding to rising Gulf premiums",
-      "link": "https://www.aljazeera.com/economy/2026/11/20/us-maritime-agency-warned-iran-blockade-was-adding-to-rising-gulf-premiums?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "ROMULUS ClickFix Attacks Deliver RAT That Can Spy on Users and Control PCs",
-      "link": "https://thehackernews.com/2026/11/romulus-clickfix-attacks-deliver-rat.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "China-Linked Hackers Exploit Critical VMware vCenter Zero-Day to Gain Admin Access and Steal Data",
-      "link": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 08:05 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "New Unpatched Windows 0-Day FastUnlock Lets Someone Holding a Locked PC Run Programs on It",
-      "link": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "BBC WORLD",
-      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
-      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "BBC WORLD",
-      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
-      "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "BBC WORLD",
-      "title": "California targets Nvidia in China AI chip probe",
-      "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "BBC WORLD",
-      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "Haiti police say 34 gang members killed in capital raid",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "El Salvador\u2019s Bukele expected to formalise bid for third presidential term",
-      "link": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "Four bodies recovered after Senegal boat capsizes amid migration surge",
-      "link": "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 00:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "Iran war live: Houthis escalate attacks on Saudi capital",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
     }
   ]
 }
