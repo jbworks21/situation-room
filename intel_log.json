@@ -196,9 +196,126 @@
     "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html",
     "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
     "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-    "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html"
+    "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
+    "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
+    "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+    "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/"
   ],
   "recent_items": [
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BBC WORLD",
+      "title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+      "link": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BBC WORLD",
+      "title": "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cx7v2d8q879eo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BBC WORLD",
+      "title": "California targets Nvidia in China AI chip probe",
+      "link": "https://www.bbc.co.uk/news/articles/cqn70vxp5p4no?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BBC WORLD",
+      "title": "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k3172xzko?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "Haiti police say 34 gang members killed in capital raid",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/haiti-police-say-34-gang-members-killed-in-capital-raid?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "El Salvador\u2019s Bukele expected to formalise bid for third presidential term",
+      "link": "https://www.aljazeera.com/news/2026/11/20/el-salvadors-bukele-expected-to-formalise-bid-for-third-presidential-term?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "Four bodies recovered after Senegal boat capsizes amid migration surge",
+      "link": "https://www.aljazeera.com/news/2026/11/20/four-bodies-recovered-after-senegal-boat-capsizes-amid-migration-surge?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "Iran war live: Houthis escalate attacks on Saudi capital",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-houthis-escalate-attacks-on-saudi-capital?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "Six killed in suspected gas explosion at Georgia apartment building",
+      "link": "https://www.aljazeera.com/news/2026/11/19/six-killed-in-suspected-gas-explosion-at-georgia-apartment-building?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "Mosque torched in Israel sparks political backlash against Netanyahu",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/19/aje-onl-nf_mosque-torched-in-israel-sparks-political-backlash-191126?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "AL JAZEERA",
+      "title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
+      "link": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "VMware patches vCenter zero-day exploited in attacks since September",
+      "link": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/20 00:33 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Hackers steal data of 1.6 million SBC Medical Group customers",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-steal-data-of-16-million-sbc-medical-group-customers/",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/19 21:25 UTC",
       "source": "BBC WORLD",
@@ -454,110 +571,6 @@
       "link": "https://thehackernews.com/2026/11/drupal-patches-critical-installer-flaw.html",
       "priority": false,
       "theater": "CYBER"
-    },
-    {
-      "time": "11/19 21:25 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Everything Is a Web Application, Including Your Firewall",
-      "link": "https://thehackernews.com/2026/11/everything-is-web-application-including.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/19 21:25 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Breach N-able Cloud Server, Disrupting Email Security Management Across 3 Regions",
-      "link": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-      "link": "https://www.bbc.co.uk/news/videos/c8p3vw4q6nzzo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-      "link": "https://www.bbc.co.uk/news/articles/c32l507ev4v4o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-      "link": "https://www.bbc.co.uk/news/articles/ck9d75x5wwwwo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "William and Kate reflect on 'enduring' UK-India ties with Modi",
-      "link": "https://www.bbc.co.uk/news/articles/cq62ped2ypy4o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-      "link": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "Grand Theft Auto 6 is a masterpiece, say critics",
-      "link": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
-      "link": "https://www.bbc.co.uk/news/articles/c6lyw490z14jo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Israeli court extends Gaza doctor Abu Safia\u2019s detention without charge",
-      "link": "https://www.aljazeera.com/news/2026/11/18/israeli-court-extends-gaza-doctor-abu-safias-detention-without-charge?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Israeli forces launch new military operation in central Gaza",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/israeli-forces-launch-new-military-operation-in-central-gaza?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Donald Trump meets \u2018longtime friend\u2019 Imelda Marcos during Philippines visit",
-      "link": "https://www.aljazeera.com/news/2026/11/18/donald-trump-meets-longtime-friend-imelda-marcos-during-philippines-visit?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/18 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Far-right influencer Jake Lang kicked out of Dearborn council meeting",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/18/far-right-influencer-jake-lang-kicked-out-of-dearborn-council-meeting?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
     }
   ]
 }
