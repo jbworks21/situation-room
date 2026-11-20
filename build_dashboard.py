@@ -1,75 +1,23 @@
-import html
 import json
 import os
 import re
-from datetime import datetime, timezone
-from operator import itemgetter
-from urllib.parse import urlparse, urlunsplit
-
-import defusedxml.ElementTree as ET
-import plotly.graph_objects as go
 import requests
+from operator import itemgetter
+from urllib.parse import urlunsplit
+from bs4 import BeautifulSoup
+import plotly.graph_objects as go
+from datetime import datetime, timezone
 
 LOG_FILE = 'intel_log.json'
 OUTPUT_HTML = 'index.html'
-HEADERS = {'User-Agent': 'SituationRoomOSINT/2.0 (+https://github.com)'}
-
-
-# --- Security & Sanitization Helpers ---
-def esc(value, max_len=300):
-    """Safely convert any external value to an HTML-escaped string with bounded length."""
-    if value is None:
-        return ""
-    text = str(value).strip()
-    if max_len and len(text) > max_len:
-        text = text[:max_len].rstrip() + "..."
-    return html.escape(text, quote=True)
-
-
-def safe_url(raw_url):
-    """Allow only valid http/https URLs; return '#' for anything else."""
-    if not raw_url or not isinstance(raw_url, str):
-        return "#"
-    cleaned = raw_url.strip()
-    try:
-        parsed = urlparse(cleaned)
-        if parsed.scheme in ("http", "https") and parsed.netloc:
-            return html.escape(cleaned, quote=True)
-    except Exception:
-        pass
-    return "#"
-
-
-def load_intel_log(filepath):
-    """Safely load and validate persistent JSON state."""
-    default_state = {"seen_links": [], "recent_items": []}
-    if not os.path.exists(filepath):
-        return default_state
-    try:
-        with open(filepath, 'r', encoding='utf-8') as f:
-            data = json.load(f)
-        if not isinstance(data, dict):
-            return default_state
-        seen = [s for s in data.get("seen_links", []) if isinstance(s, str)][:500]
-        recent = []
-        for item in data.get("recent_items", [])[:45]:
-            if isinstance(item, dict) and all(k in item for k in ("time", "source", "title", "link")):
-                recent.append({
-                    "time": str(item.get("time", ""))[:32],
-                    "source": str(item.get("source", ""))[:40],
-                    "title": str(item.get("title", ""))[:300],
-                    "link": str(item.get("link", "#"))[:1000],
-                    "priority": bool(item.get("priority", False)),
-                    "theater": str(item.get("theater", "GLOBAL"))[:20],
-                })
-        return {"seen_links": seen, "recent_items": recent}
-    except Exception as e:
-        print(f"[WARN] Failed to load {filepath}: {e}")
-        return default_state
-
+HEADERS = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'}
 
 # 1. Load Persistent Memory
-intel_log = load_intel_log(LOG_FILE)
+if os.path.exists(LOG_FILE):
+    with open(LOG_FILE, 'r', encoding='utf-8') as f:
+        intel_log = json.load(f)
+else:
+    intel_log = {"seen_links": [], "recent_items": []}
 
 # 2. Fetch 5 Global, Defense & Cyber RSS Feeds
 rss_urls = {
@@ -85,7 +33,6 @@ keywords = [
     "military", "war", "nuclear", "china", "chinese", "iran", "iranian",
     "cyber", "ransomware", "breach", "hack", "outage", "strike"
 ]
-
 
 def classify_theater(title, source):
     t = title.lower()
@@ -113,7 +60,6 @@ def classify_theater(title, source):
         return "INDOPACIFIC"
     return "GLOBAL"
 
-
 def is_duplicate_story(title, existing_items):
     words = set(re.findall(r'\b[a-z0-9]{4,}\b', title.lower()))
     if len(words) < 3:
@@ -127,34 +73,28 @@ def is_duplicate_story(title, existing_items):
             return True
     return False
 
-
 new_items = []
 for source, url in rss_urls.items():
     try:
         res = requests.get(url, headers=HEADERS, timeout=12)
         res.raise_for_status()
-        root = ET.fromstring(res.content)
-        items = root.findall('.//item')[:7]
-        for item in items:
-            title_el = item.find('title')
-            link_el = item.find('link')
-            title = (title_el.text or "").strip() if title_el is not None else "No Title"
-            raw_link = (link_el.text or "").strip() if link_el is not None else "#"
-            if not raw_link.startswith(("http://", "https://")):
-                raw_link = "#"
-            if raw_link != "#" and raw_link not in intel_log["seen_links"]:
-                intel_log["seen_links"].append(raw_link)
+        soup = BeautifulSoup(res.content, features='xml')
+        for item in soup.find_all('item')[:7]:
+            title = item.find('title').get_text(strip=True) if item.find('title') else "No Title"
+            link = item.find('link').get_text(strip=True) if item.find('link') else "#"
+            if link not in intel_log["seen_links"]:
+                intel_log["seen_links"].append(link)
                 if not is_duplicate_story(title, new_items + intel_log.get("recent_items", [])):
                     new_items.append({
                         "time": datetime.now(timezone.utc).strftime("%m/%d %H:%M UTC"),
                         "source": source,
-                        "title": title[:300],
-                        "link": raw_link[:1000],
+                        "title": title,
+                        "link": link,
                         "priority": any(k in title.lower() for k in keywords),
                         "theater": classify_theater(title, source)
                     })
-    except Exception as e:
-        print(f"[WARN] RSS feed {source} failed: {e}")
+    except Exception:
+        pass
 
 combined_items = (new_items + intel_log.get("recent_items", []))[:45]
 intel_log["recent_items"] = combined_items
@@ -194,15 +134,10 @@ for item in sorted_items:
             pulse_counts[k] += 1
 
     badge = "🚨 <b style='color:#ff4b4b;'>[PRIORITY]</b>" if item["priority"] else "•"
-    href = safe_url(item["link"])
-    safe_title = esc(item["title"], max_len=240)
-    safe_time = esc(item["time"], max_len=32)
-    safe_source = esc(item["source"], max_len=40)
-
     entry_html = (
         "<div style='margin:8px 0; padding-bottom:8px; border-bottom:1px solid #30363d; font-size:13px;'>"
-        f"<span style='color:#8b949e; font-size:11px;'>[{safe_time}] [{safe_source}]</span><br>"
-        f"{badge} <a href='{href}' target='_blank' rel='noopener noreferrer' style='color:#58a6ff; text-decoration:none;'>{safe_title}</a>"
+        f"<span style='color:#8b949e; font-size:11px;'>[{item['time']}] [{item['source']}]</span><br>"
+        f"{badge} <a href='{item['link']}' target='_blank' style='color:#58a6ff; text-decoration:none;'>{item['title']}</a>"
         "</div>"
     )
     theaters[t_key][1].append(entry_html)
@@ -212,7 +147,7 @@ for t_key, (t_label, entries) in theaters.items():
     if entries:
         theater_blocks.append(
             "<div style='margin-bottom:18px;'>"
-            f"<div style='background:#0d1117; color:#00ff41; padding:7px 10px; border-left:3px solid #00ff41; font-weight:bold; font-size:13px; margin-bottom:8px;'>{esc(t_label)} ({len(entries)})</div>"
+            f"<div style='background:#0d1117; color:#00ff41; padding:7px 10px; border-left:3px solid #00ff41; font-weight:bold; font-size:13px; margin-bottom:8px;'>{t_label} ({len(entries)})</div>"
             f"{''.join(entries)}"
             "</div>"
         )
@@ -220,8 +155,8 @@ theater_html = "".join(theater_blocks) or "<div style='color:#8b949e;'>Awaiting 
 
 pulse_html = "".join([
     "<div style='display:flex; justify-content:space-between; background:#0d1117; border:1px solid #30363d; padding:6px 10px; margin-bottom:6px; border-radius:4px; font-size:12px;'>"
-    f"<span style='color:#8b949e;'>{esc(k.upper())}</span>"
-    f"<span style='color:{'#ff4b4b' if c > 0 else '#00ff41'}; font-weight:bold;'>{int(c)} {'hit' if c == 1 else 'hits'}</span>"
+    f"<span style='color:#8b949e;'>{k.upper()}</span>"
+    f"<span style='color:{'#ff4b4b' if c > 0 else '#00ff41'}; font-weight:bold;'>{c} {'hit' if c == 1 else 'hits'}</span>"
     "</div>"
     for k, c in pulse_counts.items()
 ])
@@ -241,31 +176,27 @@ for label, sym, prefix in tickers:
     try:
         y_url = urlunsplit(('https', '.'.join(['query1', 'finance', 'yahoo', 'com']), f'/v8/finance/chart/{sym}', 'interval=1d&range=1d', ''))
         y_res = requests.get(y_url, headers=HEADERS, timeout=8)
-        y_res.raise_for_status()
         meta = get_first(y_res.json()['chart']['result'])['meta']
-        price, prev = float(meta['regularMarketPrice']), float(meta['chartPreviousClose'])
+        price, prev = meta['regularMarketPrice'], meta['chartPreviousClose']
         pct = ((price - prev) / prev) * 100
         color, arrow = ("#00ff41", "▲") if pct >= 0 else ("#ff4b4b", "▼")
         market_list.append(
             "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
-            f"<div style='color:#8b949e; font-size:11px;'>{esc(label)}</div>"
-            f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>{esc(prefix)}{price:,.2f}</div>"
+            f"<div style='color:#8b949e; font-size:11px;'>{label}</div>"
+            f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>{prefix}{price:,.2f}</div>"
             f"<div style='color:{color}; font-size:11px;'>{arrow} {pct:+.2f}%</div>"
             "</div>"
         )
-    except Exception as e:
-        print(f"[WARN] Market ticker {sym} failed: {e}")
+    except Exception:
         market_list.append(
             "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
-            f"<div style='color:#8b949e; font-size:11px;'>{esc(label)}</div><div style='color:#8b949e; font-size:12px;'>N/A</div></div>"
+            f"<div style='color:#8b949e; font-size:11px;'>{label}</div><div style='color:#8b949e; font-size:12px;'>N/A</div></div>"
         )
 
 # 5. Verified NOAA Space Weather Scales (G / R / S)
 try:
     scales_url = urlunsplit(('https', '.'.join(['services', 'swpc', 'noaa', 'gov']), '/products/noaa-scales.json', '', ''))
-    scales_res = requests.get(scales_url, headers=HEADERS, timeout=10)
-    scales_res.raise_for_status()
-    scales_data = scales_res.json()
+    scales_data = requests.get(scales_url, headers=HEADERS, timeout=10).json()
     current = scales_data.get("0", {})
     g_scale = int(current.get("G", {}).get("Scale", 0) or 0)
     r_scale = int(current.get("R", {}).get("Scale", 0) or 0)
@@ -283,8 +214,7 @@ try:
         f"<div style='color:#e6edf3; font-weight:bold; font-size:14px; margin:2px 0;'>G{g_scale} | R{r_scale} | S{s_scale}</div>"
         f"<div style='color:{sw_color}; font-size:11px;'>{sw_status}</div></div>"
     )
-except Exception as e:
-    print(f"[WARN] NOAA space weather failed: {e}")
+except Exception:
     kp_card = (
         "<div style='background:#0d1117; border:1px solid #30363d; padding:8px; border-radius:4px; text-align:center;'>"
         "<div style='color:#8b949e; font-size:11px;'>SOLAR / GPS</div>"
@@ -299,25 +229,22 @@ civ_lats, civ_lons, civ_text = [], [], []
 get_state_fields = itemgetter(1, 2, 5, 6, 7)
 try:
     opensky_url = urlunsplit(('https', '.'.join(['opensky-network', 'org']), '/api/states/all', 'lamin=15.0&lomin=-25.0&lamax=68.0&lomax=145.0', ''))
-    os_res = requests.get(opensky_url, headers=HEADERS, timeout=10)
-    os_res.raise_for_status()
-    states = os_res.json().get("states", []) or []
+    states = requests.get(opensky_url, headers=HEADERS, timeout=10).json().get("states", []) or []
     for s in states[:260]:
         raw_call, country, lon, lat, raw_alt = get_state_fields(s)
-        callsign = esc((raw_call or "").strip() or "CIVIL", max_len=20)
-        safe_country = esc(country or "Unknown", max_len=40)
+        callsign = (raw_call or "").strip() or "CIVIL"
         alt = int(raw_alt) if raw_alt else 0
         if lat is not None and lon is not None:
-            civ_lats.append(float(lat))
-            civ_lons.append(float(lon))
-            civ_text.append(f"{callsign} ({safe_country}) | Alt: {alt}m")
+            civ_lats.append(lat)
+            civ_lons.append(lon)
+            civ_text.append(f"{callsign} ({country or 'Unknown'}) | Alt: {alt}m")
     fig.add_trace(go.Scattergeo(
         lat=civ_lats, lon=civ_lons, text=civ_text, hoverinfo='text',
         mode='markers', name='Civilian Air',
         marker=dict(size=4, color='#00ff41', opacity=0.5)
     ))
-except Exception as e:
-    print(f"[WARN] OpenSky civilian airspace failed: {e}")
+except Exception:
+    pass
 
 # 6B. Dedicated Global Military & Reconnaissance Aircraft Radar (api.adsb.lol/v2/mil)
 mil_lats, mil_lons, mil_text = [], [], []
@@ -330,9 +257,9 @@ try:
         lat = ac.get("lat")
         lon = ac.get("lon")
         if lat is not None and lon is not None:
-            callsign = esc((ac.get("flight") or ac.get("r") or ac.get("hex") or "MIL-AC").strip(), max_len=20)
-            ac_type = esc(ac.get("t") or "Military", max_len=20)
-            alt = esc(ac.get("alt_baro") or "N/A", max_len=15)
+            callsign = (ac.get("flight") or ac.get("r") or ac.get("hex") or "MIL-AC").strip()
+            ac_type = ac.get("t") or "Military"
+            alt = ac.get("alt_baro") or "N/A"
             mil_lats.append(float(lat))
             mil_lons.append(float(lon))
             mil_text.append(f"MIL: {callsign} [{ac_type}] | Alt: {alt}ft")
@@ -341,8 +268,8 @@ try:
         mode='markers', name='Military / Recon',
         marker=dict(size=8, color='#ff4b4b', symbol='triangle-up', line=dict(width=0.8, color='#ffffff'))
     ))
-except Exception as e:
-    print(f"[WARN] adsb.lol military radar failed: {e}")
+except Exception:
+    pass
 
 air_status = f"🟢 {len(civ_lats)} Civil | 🔴 {len(mil_lats)} Military/Recon"
 
@@ -351,28 +278,20 @@ eq_list, eq_lats, eq_lons, eq_sizes, eq_text = [], [], [], [], []
 get_coords = itemgetter(0, 1, 2)
 try:
     eq_url = urlunsplit(('https', '.'.join(['earthquake', 'usgs', 'gov']), '/earthquakes/feed/v1.0/summary/4.5_day.geojson', '', ''))
-    eq_res = requests.get(eq_url, headers=HEADERS, timeout=12)
-    eq_res.raise_for_status()
-    eq_data = eq_res.json()
-    for f in eq_data.get("features", []):
+    eq_data = requests.get(eq_url, headers=HEADERS, timeout=12).json()
+    for f in eq_data["features"]:
         lon, lat, depth = get_coords(f["geometry"]["coordinates"])
-        mag = float(f["properties"]["mag"])
-        place = esc(f["properties"]["place"], max_len=120)
-        eq_lons.append(float(lon))
-        eq_lats.append(float(lat))
-        eq_sizes.append(mag * 3.2)
-        eq_text.append(f"M{mag:.1f} Quake - {place} ({float(depth):.1f}km)")
+        mag, place = f["properties"]["mag"], f["properties"]["place"]
+        eq_lons.append(lon); eq_lats.append(lat); eq_sizes.append(mag * 3.2)
+        eq_text.append(f"M{mag} Quake - {place} ({depth}km)")
     fig.add_trace(go.Scattergeo(
         lat=eq_lats, lon=eq_lons, text=eq_text, hoverinfo='text',
         mode='markers', name='M4.5+ Quakes',
         marker=dict(size=eq_sizes, color='#ffa500', opacity=0.75, line=dict(width=1, color='#ffffff'))
     ))
-    for f in eq_data.get("features", [])[:5]:
-        mag = float(f['properties']['mag'])
-        place = esc(f['properties']['place'], max_len=120)
-        eq_list.append(f"<div style='margin:6px 0; font-size:12px;'>🟠 <b>M{mag:.1f}</b> - {place}</div>")
-except Exception as e:
-    print(f"[WARN] USGS global seismic failed: {e}")
+    for f in eq_data["features"][:5]:
+        eq_list.append(f"<div style='margin:6px 0; font-size:12px;'>🟠 <b>M{f['properties']['mag']}</b> - {f['properties']['place']}</div>")
+except Exception:
     eq_list.append("<div style='color:#8b949e; font-size:12px;'>Seismic feed unavailable.</div>")
 eq_html = "".join(eq_list)
 
@@ -380,19 +299,17 @@ eq_html = "".join(eq_list)
 nasa_list, nasa_lats, nasa_lons, nasa_text = [], [], [], []
 try:
     eonet_url = urlunsplit(('https', '.'.join(['eonet', 'gsfc', 'nasa', 'gov']), '/api/v3/events', 'status=open&limit=15', ''))
-    eonet_res = requests.get(eonet_url, headers=HEADERS, timeout=12)
-    eonet_res.raise_for_status()
-    eonet_data = eonet_res.json()
+    eonet_data = requests.get(eonet_url, headers=HEADERS, timeout=12).json()
     for ev in eonet_data.get("events", []):
-        title = esc(ev.get("title", "Natural Event"), max_len=140)
+        title = ev.get("title", "Natural Event")
         cats = ev.get("categories", [])
-        cat_name = esc(cats[0].get("title", "Hazard") if cats else "Hazard", max_len=40)
+        cat_name = cats[0].get("title", "Hazard") if cats else "Hazard"
         geoms = ev.get("geometry", [])
         if geoms:
             coords = geoms[-1].get("coordinates", [])
             if isinstance(coords, list) and len(coords) >= 2 and isinstance(coords[0], (int, float)):
-                nasa_lons.append(float(coords[0]))
-                nasa_lats.append(float(coords[1]))
+                nasa_lons.append(coords[0])
+                nasa_lats.append(coords[1])
                 nasa_text.append(f"NASA [{cat_name}]: {title}")
         if len(nasa_list) < 5:
             nasa_list.append(f"<div style='margin:5px 0; font-size:12px;'>🔥 <b>[{cat_name}]</b> {title}</div>")
@@ -402,8 +319,7 @@ try:
             mode='markers', name='NASA Satellite Hazards',
             marker=dict(size=7, color='#ff00ff', symbol='diamond')
         ))
-except Exception as e:
-    print(f"[WARN] NASA EONET failed: {e}")
+except Exception:
     nasa_list.append("<div style='color:#8b949e; font-size:12px;'>NASA EONET feed unavailable.</div>")
 nasa_html = "".join(nasa_list) or "<div style='color:#8b949e; font-size:12px;'>No active NASA hazard alerts.</div>"
 
@@ -413,20 +329,17 @@ try:
     now_ts = int(datetime.now(timezone.utc).timestamp())
     start_ts = now_ts - 86400
     ioda_url = urlunsplit(('https', '.'.join(['api', 'ioda', 'inetintel', 'cc', 'gatech', 'edu']), '/v2/outages/alerts', f'from={start_ts}&until={now_ts}&limit=5', ''))
-    ioda_req = requests.get(ioda_url, headers=HEADERS, timeout=10)
-    ioda_req.raise_for_status()
-    ioda_res = ioda_req.json()
+    ioda_res = requests.get(ioda_url, headers=HEADERS, timeout=10).json()
     alerts = ioda_res.get("data", [])
     if alerts:
         for al in alerts[:5]:
             entity = al.get("entity", {})
-            name = esc(entity.get("name") or entity.get("code") or "Network", max_len=80)
-            level = esc(str(al.get("level", "alert")).upper(), max_len=20)
+            name = entity.get("name") or entity.get("code") or "Network"
+            level = al.get("level", "alert").upper()
             ioda_list.append(f"<div style='margin:5px 0; font-size:12px;'>🌐 <b>[{level}]</b> {name} connectivity drop</div>")
     else:
         ioda_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ No major national internet outages detected.</div>")
-except Exception as e:
-    print(f"[WARN] IODA outage feed failed: {e}")
+except Exception:
     ioda_list.append("<div style='color:#8b949e; font-size:12px;'>IODA outage telemetry temporarily unavailable.</div>")
 ioda_html = "".join(ioda_list)
 
@@ -435,73 +348,56 @@ faa_list = []
 try:
     faa_url = urlunsplit(('https', '.'.join(['nasstatus', 'faa', 'gov']), '/api/airport-status-information', '', ''))
     faa_res = requests.get(faa_url, headers=HEADERS, timeout=10)
-    faa_res.raise_for_status()
-    faa_root = ET.fromstring(faa_res.content)
-    delays = faa_root.findall('.//Delay')
+    faa_soup = BeautifulSoup(faa_res.content, features='xml')
+    delays = faa_soup.find_all('Delay')
     if delays:
         for d in delays[:4]:
-            arpt_el = d.find('ARPT')
-            reason_el = d.find('Reason')
-            arpt = esc((arpt_el.text or "").strip() if arpt_el is not None else "HUB", max_len=15)
-            reason = esc((reason_el.text or "").strip() if reason_el is not None else "Airspace Delay", max_len=100)
+            arpt = d.find('ARPT').get_text(strip=True) if d.find('ARPT') else "HUB"
+            reason = d.find('Reason').get_text(strip=True) if d.find('Reason') else "Airspace Delay"
             faa_list.append(f"<div style='margin:5px 0; font-size:12px; color:#ffa500;'>✈️ <b>{arpt}:</b> {reason}</div>")
     else:
         faa_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ US National Airspace: Normal operations (No ground stops).</div>")
-except Exception as e:
-    print(f"[WARN] FAA NAS status failed: {e}")
+except Exception:
     faa_list.append("<div style='color:#8b949e; font-size:12px;'>FAA airspace status unavailable.</div>")
 faa_html = "".join(faa_list)
 
 # 9. Local Sector Telemetry (Oceanside / SoCal NWS + Quakes + NOAA Buoy 46224)
 local_list = []
-noaa_headers = {'User-Agent': '(SituationRoomOSINT, security-contact@github.com)'}
+noaa_headers = {'User-Agent': '(SituationRoomOSINT, contact@example.com)'}
 try:
     noaa_url = urlunsplit(('https', '.'.join(['api', 'weather', 'gov']), '/alerts/active', 'point=33.1959,-117.3795', ''))
-    noaa_res = requests.get(noaa_url, headers=noaa_headers, timeout=10)
-    noaa_res.raise_for_status()
-    alerts = noaa_res.json().get("features", [])
+    alerts = requests.get(noaa_url, headers=noaa_headers, timeout=10).json().get("features", [])
     if alerts:
         for a in alerts[:3]:
             p = a.get("properties", {})
-            sev = esc(str(p.get('severity', 'Alert')).upper(), max_len=25)
-            ev_name = esc(p.get('event', 'Advisory'), max_len=80)
-            local_list.append(f"<div style='margin:5px 0; font-size:12px; color:#ff4b4b;'>⚠️ <b>[{sev}] {ev_name}</b></div>")
+            local_list.append(f"<div style='margin:5px 0; font-size:12px; color:#ff4b4b;'>⚠️ <b>[{p.get('severity','Alert').upper()}] {p.get('event','Advisory')}</b></div>")
     else:
         local_list.append("<div style='margin:5px 0; font-size:12px; color:#00ff41;'>✅ NWS Oceanside: No active weather advisories.</div>")
-except Exception as e:
-    print(f"[WARN] NWS Oceanside alerts failed: {e}")
+except Exception:
     local_list.append("<div style='margin:5px 0; font-size:12px; color:#8b949e;'>NWS feed unavailable.</div>")
 
 try:
     buoy_url = urlunsplit(('https', '.'.join(['www', 'ndbc', 'noaa', 'gov']), '/data/realtime2/46224.txt', '', ''))
-    buoy_res = requests.get(buoy_url, headers=HEADERS, timeout=8)
-    buoy_res.raise_for_status()
-    buoy_lines = buoy_res.text.splitlines()
+    buoy_lines = requests.get(buoy_url, headers=HEADERS, timeout=8).text.splitlines()
     if len(buoy_lines) >= 3:
         parts = buoy_lines[2].split()
-        if len(parts) >= 10:
-            wvht_m = parts[8]
-            dpd_s = parts[9]
-            if wvht_m != "MM":
-                wvht_ft = float(wvht_m) * 3.28084
-                dpd_val = float(dpd_s) if dpd_s != "MM" else 0.0
-                local_list.append(f"<div style='margin:5px 0; font-size:12px;'>🌊 <b>Buoy 46224 (Oceanside):</b> {wvht_ft:.1f} ft swell @ {dpd_val:.0f}s</div>")
-except Exception as e:
-    print(f"[WARN] NOAA Buoy 46224 failed: {e}")
+        wvht_m = parts[8]
+        dpd_s = parts[9]
+        if wvht_m != "MM":
+            wvht_ft = float(wvht_m) * 3.28084
+            local_list.append(f"<div style='margin:5px 0; font-size:12px;'>🌊 <b>Buoy 46224 (Oceanside):</b> {wvht_ft:.1f} ft swell @ {dpd_s}s</div>")
+except Exception:
+    pass
 
 try:
     leq_url = urlunsplit(('https', '.'.join(['earthquake', 'usgs', 'gov']), '/fdsnws/event/1/query', 'format=geojson&latitude=33.1959&longitude=-117.3795&maxradiuskm=240&minmagnitude=2.5&limit=3', ''))
-    leq_res = requests.get(leq_url, headers=HEADERS, timeout=10)
-    leq_res.raise_for_status()
-    leqs = leq_res.json().get("features", [])
+    leqs = requests.get(leq_url, headers=HEADERS, timeout=10).json().get("features", [])
     for lf in leqs:
-        lmag = float(lf['properties']['mag'])
-        lplace = esc(lf['properties']['place'], max_len=120)
-        local_list.append(f"<div style='margin:5px 0; font-size:12px;'>📍 <b>M{lmag:.1f}</b> - {lplace}</div>")
+        local_list.append(f"<div style='margin:5px 0; font-size:12px;'>📍 <b>M{lf['properties']['mag']}</b> - {lf['properties']['place']}</div>")
     if not leqs:
         local_list.append("<div style='margin:5px 0; font-size:12px; color:#8b949e;'>No M2.5+ tremors within 150 mi recently.</div>")
-except Exception as e:
-    print(f"[WARN] USGS local seismic failed: {e}")
+except Exception:
+    pass
 local_html = "".join(local_list)
 
 fig.update_geos(
@@ -517,36 +413,16 @@ fig.update_layout(
     paper_bgcolor="#0d1117", plot_bgcolor="#0d1117",
     legend=dict(orientation="h", yanchor="bottom", y=0.01, xanchor="left", x=0.01, font=dict(color="#e6edf3", size=10), bgcolor="rgba(13,17,23,0.8)")
 )
-
-# Bundle Plotly JS inline (eliminates external CDN script supply-chain risk)
-map_html = fig.to_html(include_plotlyjs=True, full_html=False)
+map_html = fig.to_html(include_plotlyjs='cdn', full_html=False)
 
 now_str = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
-# 10. Write Mobile-Responsive Standalone HTML Page with Strict CSP
-# Allow https://cdn.plot.ly in connect-src so Scattergeo can load world_110m.json
-csp_policy = (
-    "default-src 'none'; "
-    "script-src 'unsafe-inline' 'unsafe-eval' blob:; "
-    "worker-src blob:; "
-    "child-src blob:; "
-    "style-src 'unsafe-inline'; "
-    "img-src data: blob:; "
-    "font-src data:; "
-    "connect-src https://plot.ly https://plot.ly data: blob:; "
-    "object-src 'none'; "
-    "base-uri 'none'; "
-    "form-action 'none'; "
-    "frame-ancestors 'none';"
-)
-
+# 10. Write Mobile-Responsive Standalone HTML Page
 full_page = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="Content-Security-Policy" content="{csp_policy}">
-<meta name="referrer" content="no-referrer">
 <title>Global Situation Room</title>
 <style>
   body {{ background-color: #090d16; color: #e6edf3; font-family: 'Courier New', monospace; margin: 0; padding: 12px; }}
@@ -567,14 +443,14 @@ full_page = f"""<!DOCTYPE html>
 <div class="container">
   <div class="header">
     <h2 style="color:#00ff41; margin:0; font-size:17px;">🌐 GLOBAL SITUATION ROOM // EXPANDED OSINT</h2>
-    <span style="color:#00ff41; font-size:12px;">UPDATED: {esc(now_str)} (+{len(new_items)} NEW)</span>
+    <span style="color:#00ff41; font-size:12px;">UPDATED: {now_str} (+{len(new_items)} NEW)</span>
   </div>
   <div id="world-clocks" class="clock-grid"></div>
   <div class="ticker-grid">{''.join(market_list)}{kp_card}</div>
   <div class="panel">
     <div style="display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; margin-bottom:10px; gap:6px;">
       <h3 style="color:#00ff41; margin:0; font-size:14px;">🗺️ LIVE THEATER RADAR & SATELLITE HAZARD MAP</h3>
-      <span style="color:#8b949e; font-size:11px;">{esc(air_status)} | 🟠 Quakes | 🟣 NASA Hazards</span>
+      <span style="color:#8b949e; font-size:11px;">{air_status} | 🟠 Quakes | 🟣 NASA Hazards</span>
     </div>
     <div style="border:1px solid #30363d; border-radius:4px; overflow:hidden;">{map_html}</div>
   </div>
@@ -626,39 +502,19 @@ full_page = f"""<!DOCTYPE html>
   function updateClocks() {{
     const now = new Date();
     const container = document.getElementById("world-clocks");
-    if (!container) return;
-    const fragment = document.createDocumentFragment();
-
-    ZONES.forEach(z => {{
+    container.innerHTML = ZONES.map(z => {{
       const timeStr = new Intl.DateTimeFormat("en-GB", {{
         timeZone: z.tz, hour: "2-digit", minute: "2-digit", second: "2-digit", hour12: false
       }}).format(now);
       const dateStr = new Intl.DateTimeFormat("en-US", {{
         timeZone: z.tz, month: "short", day: "2-digit"
       }}).format(now).toUpperCase();
-
-      const card = document.createElement("div");
-      card.className = "clock-card";
-
-      const cityDiv = document.createElement("div");
-      cityDiv.className = "clock-city";
-      cityDiv.textContent = z.label;
-
-      const timeDiv = document.createElement("div");
-      timeDiv.className = "clock-time";
-      timeDiv.textContent = timeStr;
-
-      const dateDiv = document.createElement("div");
-      dateDiv.className = "clock-date";
-      dateDiv.textContent = dateStr;
-
-      card.appendChild(cityDiv);
-      card.appendChild(timeDiv);
-      card.appendChild(dateDiv);
-      fragment.appendChild(card);
-    }});
-
-    container.replaceChildren(fragment);
+      return `<div class="clock-card">
+        <div class="clock-city">${{z.label}}</div>
+        <div class="clock-time">${{timeStr}}</div>
+        <div class="clock-date">${{dateStr}}</div>
+      </div>`;
+    }}).join("");
   }}
 
   updateClocks();
