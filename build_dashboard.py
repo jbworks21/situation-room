@@ -533,7 +533,7 @@ csp_policy = (
     "style-src 'unsafe-inline'; "
     "img-src data: blob:; "
     "font-src data:; "
-    "connect-src https://plot.ly data: blob:; "
+    "connect-src https://plot.ly https://plot.ly data: blob:; "
     "object-src 'none'; "
     "base-uri 'none'; "
     "form-action 'none'; "
