@@ -288,9 +288,109 @@
     "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
     "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
     "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
-    "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+    "https://www.bbc.co.uk/news/articles/cj752ddve27ko?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+    "https://www.aljazeera.com/video/inside-story/2026/11/21/could-brexit-be-reversed?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/uk-police-drag-man-from-protest-over-pallet-sign-acton-shirt?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+    "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+    "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/"
   ],
   "recent_items": [
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "BBC WORLD",
+      "title": "Mexican drug lord on FBI's 10 most wanted list arrested in shoot-out",
+      "link": "https://www.bbc.co.uk/news/articles/ckz749ey0r75o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Deadly attack in Kyiv as Russia launches barrage against Ukraine",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/aje-onl-nf_deadly-attack-in-kyiv-as-russia-launches-barrage-211126?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "FBI national crime database suffers suspected breach: Reports",
+      "link": "https://www.aljazeera.com/news/2026/11/21/fbi-national-crime-database-suffers-suspected-breach-reports?traffic_source=rss",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Could Brexit be reversed?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/11/21/could-brexit-be-reversed?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump says he wants \u2018permanent\u2019 deal to stop Iran getting nuclear weapons",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-clip-trump-iran-permanent-nuclear-deal?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "UK police drag man from protest over \u2018Pallet Sign Acton\u2019 shirt",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/uk-police-drag-man-from-protest-over-pallet-sign-acton-shirt?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli strike hits food aid vehicle in Gaza, killing three",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/21-11-sv-israel-targets-gaza-food-truck?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "AL JAZEERA",
+      "title": "Liverpool vs Manchester United: Premier League \u2013 teams, prediction, lineups",
+      "link": "https://www.aljazeera.com/sports/2026/11/21/liverpool-vs-manchester-united-premier-league-teams-prediction-lineups?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft Entra Connect Health flaw exploited to steal tenant data",
+      "link": "https://www.bleepingcomputer.com/news/security/microsoft-entra-connect-health-flaw-exploited-to-steal-tenant-data/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "BADBOX botnet returns with record-breaking 40 billion daily ad requests",
+      "link": "https://www.bleepingcomputer.com/news/security/badbox-30-botnet-returns-with-record-breaking-40-billion-daily-ad-requests/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 19:56 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "FBI reportedly hacked again, this time targeting nationwide police database",
+      "link": "https://www.bleepingcomputer.com/news/security/fbi-reportedly-hacked-again-this-time-targeting-nationwide-police-database/",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/21 12:54 UTC",
       "source": "BBC WORLD",
@@ -562,94 +662,6 @@
       "link": "https://www.aljazeera.com/news/2026/11/20/trump-defends-putin-relationship-warns-ai-data-centres-must-stay-in-us?traffic_source=rss",
       "priority": true,
       "theater": "EUROPE"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Two Salvadoran soldiers killed in Haiti while handling explosives",
-      "link": "https://www.aljazeera.com/news/2026/11/20/two-salvadoran-soldiers-killed-in-haiti-while-handling-explosives?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Can the UK and EU turn the page on Brexit?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/can-the-uk-and-eu-turn-the-page-on-brexit?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Trump, Xi agreed that military AI decisions should involve humans, Bessent says",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/20/trump-xi-agreed-that-military-ai-decisions-should-involve-humans-bessent-says/",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Bell Canada says 'agentic' hacker stole enterprise customer data",
-      "link": "https://www.bleepingcomputer.com/news/security/bell-canada-says-agentic-hacker-stole-enterprise-customer-data/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Hackers use autonomous AI tool Cairn to find zero-day, take over server",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-use-autonomous-ai-tool-cairn-to-find-zero-day-take-over-server/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "WhatsApp Patches 3 Security Flaws, Including Android Bug Suspected of Use in Scams",
-      "link": "https://thehackernews.com/2026/11/whatsapp-patches-3-security-flaws.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 23:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Bazuka Android Malware Uses Fake Screen Overlays to Hide Credential Theft and Device Control",
-      "link": "https://thehackernews.com/2026/11/bazuka-android-malware-uses-fake-screen.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-      "link": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-      "link": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Anthropic shares fall a day after blockbuster opening",
-      "link": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Nearly 600 women killed in South Africa within three months",
-      "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
     }
   ]
 }
