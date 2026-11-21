@@ -271,9 +271,162 @@
     "https://www.aljazeera.com/video/newsfeed/2026/11/21/cop31-deal-stalls-as-nations-struggle-to-agree-on-climate-plan?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/21/can-africas-new-credit-rating-agency-change-how-the-continent-is-assessed?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/21/denmark-expels-russian-diplomat-over-alleged-plot-to-kill-ukrainian-rapper?traffic_source=rss",
-    "https://www.aljazeera.com/sports/2026/11/21/can-pochetinno-save-man-united-from-premier-league-relegation?traffic_source=rss"
+    "https://www.aljazeera.com/sports/2026/11/21/can-pochetinno-save-man-united-from-premier-league-relegation?traffic_source=rss",
+    "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/21/sudans-elderly-face-hardship-and-heartbreak-in-a-life-of-displacement?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+    "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
+    "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+    "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+    "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+    "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html"
   ],
   "recent_items": [
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "BBC WORLD",
+      "title": "Zelensky says Crimean Bridge strikes 'fair response' as he meets UK's Streeting",
+      "link": "https://www.bbc.co.uk/news/articles/c6wy0qj7w5zqo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "BBC WORLD",
+      "title": "Fight over fossil fuels leaves COP31 climate talks in deadlock",
+      "link": "https://www.bbc.co.uk/news/articles/c6ly5w40eg07o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "BBC WORLD",
+      "title": "FBI reportedly investigating apparent hack of its criminal database",
+      "link": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "BBC WORLD",
+      "title": "Man convicted of starting Palisades fire in Los Angeles",
+      "link": "https://www.bbc.co.uk/news/articles/c64gn0gy8rj3o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "BBC WORLD",
+      "title": "Deal with EU not dependent on tuition fees agreement, Miliband says",
+      "link": "https://www.bbc.co.uk/news/articles/cm9w9p4geke8o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Riemann hypothesis: Has the world\u2019s most famous maths problem been cracked?",
+      "link": "https://www.aljazeera.com/news/2026/11/21/riemann-hypothesis-has-the-worlds-most-famous-maths-problem-been-cracked?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Russia says Kaliningrad-bound ship struck by drones in Gulf of Finland",
+      "link": "https://www.aljazeera.com/news/2026/11/21/russia-says-kaliningrad-bound-ship-struck-by-drones-in-gulf-of-finland?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Sudan\u2019s elderly face hardship and heartbreak in a life of displacement",
+      "link": "https://www.aljazeera.com/news/2026/11/21/sudans-elderly-face-hardship-and-heartbreak-in-a-life-of-displacement?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli attacks on Gaza kill at least four Palestinians",
+      "link": "https://www.aljazeera.com/news/2026/11/21/at-least-four-palestinians-killed-in-israeli-attacks-on-gaza?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Florida residents turn to kayaks and rafts as floods swamp streets",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/florida-residents-turn-to-kayaks-and-rafts-as-floods-swamp-streets?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Mexico captures FBI-wanted cartel boss in military raid",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/mexico-captures-fbi-wanted-cartel-boss-in-military-raid?traffic_source=rss",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "AL JAZEERA",
+      "title": "Why is GTA VI so expensive to play?",
+      "link": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/21/why-is-gta-vi-so-expensive-to-play?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "A Single Malicious Webpage Let Researchers Hijack Meta Muse and Access Private Chats",
+      "link": "https://thehackernews.com/2026/11/a-single-malicious-webpage-let.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "GnuPG Warns Critical GPGME Flaw Could Expose App Data via Malicious OpenPGP Keys",
+      "link": "https://thehackernews.com/2026/11/gnupg-warns-critical-gpgme-flaw-could.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Attackers' AI Agents Found a Zero-Day in Medical-Imaging Software and Gained Root Access",
+      "link": "https://thehackernews.com/2026/11/attackers-ai-agents-found-zero-day-in.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Signal Blocks AI Agents From Reading Private Chats via Screenshots on Android and iOS",
+      "link": "https://thehackernews.com/2026/11/signal-blocks-ai-agents-from-reading.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/21 12:54 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Exploit Critical VMware, Cisco, and Apache Flaws as Espionage Attacks Emerge",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-vmware-cisco.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/21 04:10 UTC",
       "source": "BBC WORLD",
@@ -497,142 +650,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o?at_medium=RSS&at_campaign=rss",
       "priority": false,
       "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Texas death-row inmate screams as execution takes more than one hour",
-      "link": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "Catherine Zeta-Jones' daughter says parents warned her about 'nepo baby' label",
-      "link": "https://www.bbc.co.uk/news/articles/cmgj35zvjyp9o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BBC WORLD",
-      "title": "South Korea catches 111 students with new measures against exam cheating",
-      "link": "https://www.bbc.co.uk/news/articles/cm3vgw1xevvwo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "10 years after divisive Brexit referendum, UK weighs a \u2018Breturn\u2019 to the EU",
-      "link": "https://www.aljazeera.com/news/2026/11/20/10-years-after-divisive-brexit-referendum-uk-weighs-a-breturn-to-the-eu?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "Qatar and Germany deepen strategic ties during emir\u2019s Berlin visit",
-      "link": "https://www.aljazeera.com/news/2026/11/20/qatar-and-germany-deepen-strategic-ties-during-emirs-berlin-visit?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "US Senate passes bill to speed up energy project approvals",
-      "link": "https://www.aljazeera.com/news/2026/11/20/us-senate-passes-bill-to-speed-up-energy-project-approvals?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "\u2018Expel invaders\u2019: The dangerous promises of Spain\u2019s far-right Vox party",
-      "link": "https://www.aljazeera.com/news/2026/11/20/what-is-vox-and-how-did-spains-far-right-party-rise-to-prominence?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "One third of attacks on children worldwide recorded in Palestine",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/one-third-of-attacks-on-children-worldwide-recorded-in-palestine?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "Kansas hosts become guests as Algeria repays World Cup welcome",
-      "link": "https://www.aljazeera.com/sports/2026/11/20/kansas-hosts-become-guests-as-algeria-repays-world-cup-welcome?traffic_source=rss",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "AL JAZEERA",
-      "title": "Jerusalem Daily: Palestinians return home to ruins",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/20/jerusalem-daily-palestinians-return-home-to-ruins?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "German attack drones pass live-fire tests, with first deliveries planned this year",
-      "link": "https://www.defensenews.com/global/europe/2026/11/20/german-attack-drones-pass-live-fire-tests-with-first-deliveries-planned-this-year/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Dutch defense-industry plan targets 40% growth, \u20ac15 billion revenue by 2030",
-      "link": "https://www.defensenews.com/global/europe/2026/11/20/dutch-defense-industry-plan-targets-40-growth-e15-billion-revenue-by-2030/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Vendor data breach exposes Chase, Visa, Mastercard customer info",
-      "link": "https://www.bleepingcomputer.com/news/security/vendor-data-breach-exposes-chase-visa-mastercard-customer-info/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Still tracking company passwords in spreadsheets? You\u2019re flying blind.",
-      "link": "https://www.bleepingcomputer.com/news/security/still-tracking-company-passwords-in-spreadsheets-youre-flying-blind/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "N-able says recent security breach led to major service outage",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/n-able-says-recent-security-breach-led-to-major-service-outage/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft now automatically installs Windows 11 26H2 on unmanaged devices",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-now-automatically-installs-windows-11-26h2-on-personal-and-unmanaged-pcs/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/20 17:07 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "F5 releases emergency patches for critical BIG-IP RCE flaws",
-      "link": "https://www.bleepingcomputer.com/news/security/f5-releases-emergency-patches-for-critical-big-ip-rce-flaws/",
-      "priority": false,
-      "theater": "CYBER"
     }
   ]
 }
