@@ -349,9 +349,171 @@
     "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/23/cameroons-ex-rebels-caught-between-hiding-and-broken-promises?traffic_source=rss",
-    "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss"
+    "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat?traffic_source=rss",
+    "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/23/why-is-bangladeshs-grameen-bank-under-attack?traffic_source=rss",
+    "https://www.aljazeera.com/features/2026/11/23/military-zones-in-occupied-west-bank-become-israeli-settler-outpost-lands?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-turned-into-toxic-wasteland-by-israels-war-says-new-report?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/23/zelenskyy-says-ukraine-behind-attacks-on-russian-ships-near-libya?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/23/environmental-crimes-israel-blamed-for-toxic-pollution-in-99-of-gaza?traffic_source=rss",
+    "https://www.defensenews.com/global/mideast-africa/2026/11/23/ukraine-confirms-it-sank-russian-corvette-in-libyan-port/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+    "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+    "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+    "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+    "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html"
   ],
   "recent_items": [
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BBC WORLD",
+      "title": "Five takeaways from the failed climate talks COP31",
+      "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BBC WORLD",
+      "title": "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+      "link": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BBC WORLD",
+      "title": "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+      "link": "https://www.bbc.co.uk/news/articles/cqe9k09j9jv4o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BBC WORLD",
+      "title": "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+      "link": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BBC WORLD",
+      "title": "Kenya and DR Congo agree to restore ties after tensions over conflict",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2qnn95vro?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "Why is Bangladesh\u2019s Grameen Bank under attack?",
+      "link": "https://www.aljazeera.com/news/2026/11/23/why-is-bangladeshs-grameen-bank-under-attack?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "Occupied West Bank \u2018military zones\u2019 become de facto Israeli settler land",
+      "link": "https://www.aljazeera.com/features/2026/11/23/military-zones-in-occupied-west-bank-become-israeli-settler-outpost-lands?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "Thousands displaced after deadly storm hits Brazil town",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/thousands-displaced-after-deadly-storm-hits-brazil-town?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "At least 15 killed in Ukraine\u2019s Kyiv region as Russia intensifies attacks",
+      "link": "https://www.aljazeera.com/news/2026/11/23/death-toll-rises-after-deadly-russian-attacks-on-ukraine?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "Gaza turned into \u2018toxic wasteland\u2019 by Israel\u2019s war, says new report",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/gaza-turned-into-toxic-wasteland-by-israels-war-says-new-report?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "Zelenskyy says Ukraine behind attacks on Russian ships near Libya",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/zelenskyy-says-ukraine-behind-attacks-on-russian-ships-near-libya?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "AL JAZEERA",
+      "title": "\u2018Environmental crimes\u2019: Israel blamed for toxic pollution in 99% of Gaza",
+      "link": "https://www.aljazeera.com/news/2026/11/23/environmental-crimes-israel-blamed-for-toxic-pollution-in-99-of-gaza?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Ukraine confirms it sank Russian corvette in Libyan port",
+      "link": "https://www.defensenews.com/global/mideast-africa/2026/11/23/ukraine-confirms-it-sank-russian-corvette-in-libyan-port/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft confirms Windows printing issues affecting Forcepoint users",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-printing-issues-after-kb5132043-windows-hotpatch/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Exploit Critical ASP.NET Anti-CSRF Library Flaw Allowing Unauthenticated RCE",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-aspnet-anti.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Exploited GL.iNet Cloud Flaw to Install Malware on Routers and KVM Devices",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-glinet-cloud-flaw-to.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/23 11:01 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "AI-Assisted Cyberattacks Trigger Unauthorized Payments at Indian Banks and Fintech Firms",
+      "link": "https://thehackernews.com/2026/11/ai-assisted-cyberattacks-trigger.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/23 02:15 UTC",
       "source": "AL JAZEERA",
@@ -567,150 +729,6 @@
       "link": "https://www.aljazeera.com/news/2026/11/22/zelenskyy-urges-us-to-release-patriot-missiles?traffic_source=rss",
       "priority": true,
       "theater": "EUROPE"
-    },
-    {
-      "time": "11/22 15:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "Why Bangladesh descended into violence ahead of Hasina\u2019s planned return",
-      "link": "https://www.aljazeera.com/news/2026/11/22/why-bangladesh-descended-into-violence-ahead-of-hasinas-planned-return?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 15:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "How El Chapo Isidro, alleged Mexican cartel leader, was captured",
-      "link": "https://www.aljazeera.com/news/2026/11/22/how-el-chapo-isidro-alleged-mexican-cartel-leader-was-captured?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/22 15:33 UTC",
-      "source": "AL JAZEERA",
-      "title": "Jerusalem Daily: Israeli settlers set Palestinian vehicles ablaze",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/jerusalem-daily-israeli-settlers-set-palestinian-vehicles-ablaze?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/22 15:33 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Signal to block Siri, Gemini AI from capturing chats on iOS, Android",
-      "link": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "BBC WORLD",
-      "title": "New draft deal aims to avert collapse of talks at climate summit",
-      "link": "https://www.bbc.co.uk/news/articles/cq7827z2841zo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "What Sandpapergate reveals about Australian cricket",
-      "link": "https://www.aljazeera.com/opinions/2026/11/22/what-sandpapergate-reveals-about-australian-cricket?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Kenya\u2019s internet metering bill raises privacy and affordability concerns",
-      "link": "https://www.aljazeera.com/news/2026/11/22/kenyas-internet-metering-bill-raises-privacy-and-affordability-concerns?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Displaced Darfur families face volatile winter as Sudan aid cuts bite",
-      "link": "https://www.aljazeera.com/features/2026/11/22/displaced-from-darfur-sudan-families-face-volatile-winter-as-aid-cuts-loom?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "ICE agents detain two people at Seattle airport",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/ice-agents-detain-two-people-at-seattle-airport?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Fossil fuel impasse pushes COP31 climate talks into second day of overtime",
-      "link": "https://www.aljazeera.com/news/2026/11/22/fossil-fuel-impasse-pushes-cop31-climate-talks-into-second-day-of-overtime?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "First images of Mexican cartel boss \u2018El Chapo Isidro\u2019 after arrest",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/22/first-images-of-mexican-cartel-boss-el-chapo-isidro-after-arrest?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Eleven killed in burst of violence during Mexican cartel leader\u2019s capture",
-      "link": "https://www.aljazeera.com/news/2026/11/22/eleven-killed-in-burst-of-violence-during-mexican-cartel-leaders-capture?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "OpenRouter Drops 3 Providers After Researchers Catch Months of Prompt Theft at AI Hosting Firms",
-      "link": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/22 07:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Researchers Demonstrate Ghostscript Sandbox-Escape RCE via Crafted File Uploads in Popular Apps",
-      "link": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/22 00:08 UTC",
-      "source": "AL JAZEERA",
-      "title": "Lebanese president demands Israel withdrawal, decries Iran\u2019s interference",
-      "link": "https://www.aljazeera.com/news/2026/11/21/lebanese-president-demands-israel-withdrawal-decries-irans-interference?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/22 00:08 UTC",
-      "source": "AL JAZEERA",
-      "title": "Iran faces a \u2018silent economic war\u2019, says Iranian president",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/iran-faces-a-silent-economic-war-says-iranian-president?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/22 00:08 UTC",
-      "source": "AL JAZEERA",
-      "title": "Bahrain says Iranian attack hits industrial facility",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/bahrain-says-iranian-attack-hits-industrial-facility?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/22 00:08 UTC",
-      "source": "AL JAZEERA",
-      "title": "Impunity fuels surge in settler violence across occupied West Bank",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/21/impunity-fuels-surge-in-settler-violence-across-occupied-west-bank?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
     }
   ]
 }
