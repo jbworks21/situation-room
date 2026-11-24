@@ -412,9 +412,252 @@
     "https://www.aljazeera.com/video/newsfeed/2026/11/24/indias-best-known-bottled-water-under-scrutiny?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/24/who-chief-visits-cuba-as-healthcare-system-deteriorates?traffic_source=rss",
     "https://thehackernews.com/2026/11/openai-and-cisco-unveil-ai-assisted.html",
-    "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html"
+    "https://thehackernews.com/2026/11/hackers-exploit-n-able-mailassure-flaw.html",
+    "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/witness/2026/11/24/colombia-at-a-crossroads-searching-for-peace-amid-conflict?traffic_source=rss",
+    "https://www.aljazeera.com/video/doha-debates/2026/11/24/should-freedom-of-movement-be-a-right-or-a-privilege?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_how-senegal-got-their-afcon-trophy-back-241126?traffic_source=rss",
+    "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
+    "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
+    "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+    "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+    "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+    "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+    "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+    "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+    "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+    "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+    "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+    "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+    "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+    "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+    "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html"
   ],
   "recent_items": [
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BBC WORLD",
+      "title": "Nvidia shares slide as Trump's role in Jensen Huang's comeback questioned by US politicians",
+      "link": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BBC WORLD",
+      "title": "What Jensen Huang's return teaches China's Xi about Trump",
+      "link": "https://www.bbc.co.uk/news/articles/c63rgpy50x98o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BBC WORLD",
+      "title": "Land mine casualties soar in Syria, two years after war",
+      "link": "https://www.bbc.co.uk/news/articles/c893rl37ywdgo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BBC WORLD",
+      "title": "Israeli air strike kills Hamas internal security chief in Gaza",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BBC WORLD",
+      "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+      "link": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "Colombia at a Crossroads: Searching for peace amid conflict",
+      "link": "https://www.aljazeera.com/video/witness/2026/11/24/colombia-at-a-crossroads-searching-for-peace-amid-conflict?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "Should freedom of movement be a right or a privilege?",
+      "link": "https://www.aljazeera.com/video/doha-debates/2026/11/24/should-freedom-of-movement-be-a-right-or-a-privilege?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
+      "link": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "Five tonnes of explosives set to blow up in Iowa",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "US sanctions on Lebanon\u2019s Hezbollah-affiliates may have limited impact",
+      "link": "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "After Libya, where will Ukraine strike Russia next?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "AL JAZEERA",
+      "title": "How Senegal got their AFCON trophy back",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_how-senegal-got-their-afcon-trophy-back-241126?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "From horsepower to firepower, Japan draws auto suppliers into major arms buildup",
+      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Russia may launch nuke-laden satellite by year\u2019s end, German report warns",
+      "link": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Radware discloses breach exposing customer cloud access keys",
+      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "European Commission confirms data theft in EU Academy breach",
+      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Hackers compromise Check Point Servers in 22 organizations",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
+      "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
+      "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "McDonald's Japan data breach exposes customer location information",
+      "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
+      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
+      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
+      "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/24 18:40 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
+      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
     {
       "time": "11/24 06:46 UTC",
       "source": "BBC WORLD",
@@ -556,222 +799,6 @@
       "source": "BBC WORLD",
       "title": "India pledges $1.6bn to Nepal in reset of ties",
       "link": "https://www.bbc.co.uk/news/articles/cwx2ervemj4ko?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "US escalates sanctions on Iran, targets \u2018shadow banking\u2019 networks",
-      "link": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "Israel\u2019s southern Syria incursion triggers fear and destruction",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/23/israels-southern-syria-incursion-triggers-fear-and-destruction?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "US states sue SpaceX over Grok AI\u2019s creation of child sexual abuse material",
-      "link": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "US drug prices leave patients facing impossible choices",
-      "link": "https://www.aljazeera.com/news/2026/11/23/us-drug-prices-leave-patients-facing-impossible-choices?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "Iran flogs singer Parastoo Ahmadi for performing without headscarf",
-      "link": "https://www.aljazeera.com/news/2026/11/23/iran-flogs-singer-parastoo-ahmadi-for-performing-without-headscarf?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "Iran hits US bases and civilian sites in the Gulf after a lull",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "AL JAZEERA",
-      "title": "Turkish police hunting for lioness stalking Istanbul",
-      "link": "https://www.aljazeera.com/news/2026/11/23/turkish-police-hunting-for-lioness-stalking-istanbul?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
-      "link": "https://www.defensenews.com/video/2026/11/23/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Ukraine strikes Russian warship and cargo vessel with naval drones in Libya",
-      "link": "https://www.defensenews.com/video/2026/11/23/ukraine-strikes-russian-warship-and-cargo-vessel-with-naval-drones-in-libya/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "China\u2019s fourth aircraft carrier, bigger than others and nuclear-powered, nears completion",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/23/chinas-fourth-aircraft-carrier-bigger-than-others-and-nuclear-powered-nears-completion/",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Acting Navy Secretary Hung Cao heads to the Hill and the Pentagon fails an audit | Headlines",
-      "link": "https://www.defensenews.com/video/2026/11/23/acting-navy-secretary-hung-cao-heads-to-the-hill-and-the-pentagon-fails-an-audit-headlines/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "DARPA tests drones to find and assess injured victims at the Triage Challenge",
-      "link": "https://www.defensenews.com/video/2026/11/23/darpa-tests-drones-to-find-and-assess-injured-victims-at-the-triage-challenge/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Two major veterans bills pass the House | MOAA Headlines",
-      "link": "https://www.defensenews.com/video/2026/11/23/two-major-veterans-bills-pass-the-house-moaa-headlines/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Manage Credit Card Debt With Confidence | Money Minute",
-      "link": "https://www.defensenews.com/video/2026/11/23/manage-credit-card-debt-with-confidence-money-minute/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "South Korea\u2019s power giant KEPCO confirms data breach impacting 1.5 million",
-      "link": "https://www.bleepingcomputer.com/news/security/south-koreas-power-giant-kepco-confirms-data-breach-impacting-15-million/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
-      "link": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
-      "link": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Spanish LaLiga confirms hackers stole soccer fans\u2019 personal data",
-      "link": "https://www.bleepingcomputer.com/news/security/spanish-laliga-confirms-hackers-stole-soccer-fans-personal-data/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "GlobeTopper loses $2.5 million after hackers steal $70k in gift cards",
-      "link": "https://www.bleepingcomputer.com/news/security/globetopper-loses-25-million-after-hackers-steal-70k-in-gift-cards/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "AI Agents Are Creating a Shared Responsibility Gap",
-      "link": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft testing fix for Windows 11 Bluetooth audio quality drops",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-fix-for-windows-11-bluetooth-audio-quality-drops/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Webworm Suspected of Modifying SoftEther VPN to Evade Detection and Hide Remote Access",
-      "link": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "\u26a1 Weekly Recap: VMware 0-Day, Java4Shell, NGINX2Root, Ruby2Shell, and a Whole Lot of Shell Trouble",
-      "link": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Critical binary-parser Flaw Enables JavaScript Injection via Malicious Parser Definitions",
-      "link": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Exploit Critical ScreenConnect Flaw to Hijack MSP Technician PCs Without Warning",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-critical-screenconnect.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 22:50 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "N-able Discloses Critical Mail Assure Vulnerability Found During Breach Investigation",
-      "link": "https://thehackernews.com/2026/11/n-able-discloses-critical-mail-assure.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/23 11:01 UTC",
-      "source": "BBC WORLD",
-      "title": "Five takeaways from the failed climate talks COP31",
-      "link": "https://www.bbc.co.uk/news/articles/cm75237wlp3lo?at_medium=RSS&at_campaign=rss",
       "priority": false,
       "theater": "GLOBAL"
     }
