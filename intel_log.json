@@ -454,9 +454,243 @@
     "https://www.defensenews.com/naval/2026/11/24/a-new-competition-space-us-coast-guard-takes-icebreaker-on-maiden-voyage-to-the-arctic/",
     "https://www.bleepingcomputer.com/news/security/rackspace-shuts-down-spot-cloud-platform-after-security-breach/",
     "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
-    "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/"
+    "https://www.bleepingcomputer.com/news/security/turnitin-discloses-cyberattack-affecting-customer-facing-systems/",
+    "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/25/ex-england-star-sterling-given-suspended-sentence-for-dangerous-driving?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/25/fire-breaks-out-following-drone-strikes-on-a-residential-area-in-al-damazin?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/25/sinner-uncertain-for-australian-open-after-undergoing-knee-surgery?traffic_source=rss",
+    "https://www.aljazeera.com/video/counting-the-cost/2026/11/25/after-brexit-is-britain-heading-back-to-the-eu?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/25/zidane-was-much-better-than-me-bellingham-after-real-madrid-wonder-goal?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
+    "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+    "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+    "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+    "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+    "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+    "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+    "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+    "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+    "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+    "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+    "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+    "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html"
   ],
   "recent_items": [
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
+      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+      "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Thomas Markle charged in US for possessing child sex abuse images",
+      "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "US preparing to unveil plan for new tariffs on global trading partners",
+      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BBC WORLD",
+      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+      "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Overnight RSF drone attacks kill 19 in Sudan",
+      "link": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Ex England star Sterling given suspended sentence for dangerous driving",
+      "link": "https://www.aljazeera.com/sports/2026/11/25/ex-england-star-sterling-given-suspended-sentence-for-dangerous-driving?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Fire breaks out following drone strikes on a residential area in Al Damazin",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/fire-breaks-out-following-drone-strikes-on-a-residential-area-in-al-damazin?traffic_source=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Sinner uncertain for Australian Open after undergoing knee surgery",
+      "link": "https://www.aljazeera.com/sports/2026/11/25/sinner-uncertain-for-australian-open-after-undergoing-knee-surgery?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "After Brexit, is Britain heading back to the EU?",
+      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/11/25/after-brexit-is-britain-heading-back-to-the-eu?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Zidane was much better than me: Bellingham after Real Madrid wonder goal",
+      "link": "https://www.aljazeera.com/sports/2026/11/25/zidane-was-much-better-than-me-bellingham-after-real-madrid-wonder-goal?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli strike kills Hamas official, his wife and children",
+      "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Buried in Italy\u2019s budget, officials see Rome meeting NATO spending target",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "DEFENSE NEWS",
+      "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
+      "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Microsoft confirms authentication issues after November updates",
+      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Hackers reportedly breached CIA intelligence analysis system",
+      "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
+      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+      "link": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+      "link": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+      "link": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Com-Affiliated Hackers Hijack Cloud Accounts via Vishing for Data Theft and Extortion",
+      "link": "https://thehackernews.com/2026/11/com-affiliated-hackers-hijack-cloud.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/25 12:16 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+      "link": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
     {
       "time": "11/25 02:56 UTC",
       "source": "BBC WORLD",
@@ -608,214 +842,6 @@
       "link": "https://www.bbc.co.uk/news/articles/c6rrg7ggq190o?at_medium=RSS&at_campaign=rss",
       "priority": true,
       "theater": "MIDEAST"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BBC WORLD",
-      "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
-      "link": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Colombia at a Crossroads: Searching for peace amid conflict",
-      "link": "https://www.aljazeera.com/video/witness/2026/11/24/colombia-at-a-crossroads-searching-for-peace-amid-conflict?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Should freedom of movement be a right or a privilege?",
-      "link": "https://www.aljazeera.com/video/doha-debates/2026/11/24/should-freedom-of-movement-be-a-right-or-a-privilege?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Cameroon separatist leader pleads not guilty at war crimes trial in Norway",
-      "link": "https://www.aljazeera.com/news/2026/11/24/cameroon-separatist-leader-pleads-not-guilty-in-war-crimes-trial?traffic_source=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "Five tonnes of explosives set to blow up in Iowa",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/five-tonnes-of-explosives-set-to-blow-up-in-iowa?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "US sanctions on Lebanon\u2019s Hezbollah-affiliates may have limited impact",
-      "link": "https://www.aljazeera.com/news/2026/11/24/us-sanctions-on-lebanons-hezbollah-affiliates-may-have-limited-impact?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "After Libya, where will Ukraine strike Russia next?",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/after-libya-where-will-ukraine-strike-russia-next?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "AL JAZEERA",
-      "title": "How Senegal got their AFCON trophy back",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/24/aje-onl-nf_how-senegal-got-their-afcon-trophy-back-241126?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "From horsepower to firepower, Japan draws auto suppliers into major arms buildup",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/24/from-horsepower-to-firepower-japan-draws-auto-suppliers-into-major-arms-buildup/",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Russia may launch nuke-laden satellite by year\u2019s end, German report warns",
-      "link": "https://www.defensenews.com/global/europe/2026/11/24/russia-may-launch-nuke-laden-satellite-by-years-end-german-report-warns/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Radware discloses breach exposing customer cloud access keys",
-      "link": "https://www.bleepingcomputer.com/news/security/radware-discloses-breach-exposing-customer-cloud-access-keys/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
-      "link": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "European Commission confirms data theft in EU Academy breach",
-      "link": "https://www.bleepingcomputer.com/news/security/european-commission-confirms-data-theft-in-eu-academy-breach/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Hackers compromise Check Point Servers in 22 organizations",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Police disrupt 57 illegal streaming services with 7.3 million visits",
-      "link": "https://www.bleepingcomputer.com/news/security/police-disrupt-57-illegal-streaming-services-with-73-million-visits/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "From Vulnerability Noise to Resilience: Rethinking Security in the AI Era",
-      "link": "https://www.bleepingcomputer.com/news/security/from-vulnerability-noise-to-resilience-rethinking-security-in-the-ai-era/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "McDonald's Japan data breach exposes customer location information",
-      "link": "https://www.bleepingcomputer.com/news/security/mcdonalds-japan-data-breach-exposes-customer-location-information/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Iran-Aligned Volant Manticore Uses IPFS-Based KuboShell Backdoor in Espionage Campaigns",
-      "link": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
-      "link": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
-      "link": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Google Researcher Shows How a Single Bit Change in .NET Files Bypassed Windows Code Integrity",
-      "link": "https://thehackernews.com/2026/11/google-researcher-shows-how-single-bit.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "2027 SOC Budget Reset: 5 Priorities to Cut Costs and Reduce Cyber Risk",
-      "link": "https://thehackernews.com/2026/11/2027-soc-budget-reset-5-priorities-to.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 18:40 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Microsoft Fixes Azure API Management Classic Flaw as Actor Targets Customer Secrets",
-      "link": "https://thehackernews.com/2026/11/microsoft-fixes-azure-api-management.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/24 06:46 UTC",
-      "source": "BBC WORLD",
-      "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/24 06:46 UTC",
-      "source": "BBC WORLD",
-      "title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
-      "link": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/24 06:46 UTC",
-      "source": "BBC WORLD",
-      "title": "India's 'cockroach' party leader says he was stopped from flying to UK",
-      "link": "https://www.bbc.co.uk/news/articles/cm5y1ezx2gqyo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
     }
   ]
 }
