@@ -1,14 +1,5 @@
 {
   "seen_links": [
-    "https://www.bbc.co.uk/news/articles/ckx27v6dpjz0o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cwm2mllj1pp8o?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/economy/2026/11/16/silicon-valley-insiders-urge-nvidia-to-restore-jensen-huangs-ceo-role?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/16/iran-deploys-army-to-stronghold-of-iran-backed-kataib-hezbollah?traffic_source=rss",
-    "https://www.aljazeera.com/sports/liveblog/2026/11/16/live-germany-vs-netherlands-uefa-nations-league?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-denies-responsibility-for-faa-nationwide-ground-stop?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/16/iran-braces-for-natural-gas-shortages-during-winter-energy-imbalance?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/16/israeli-forces-demolish-the-homes-of-two-palestinian-prisoners?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/16/jerusalem-daily-eisenkot-wants-netanyahu-out?traffic_source=rss",
     "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
     "https://www.defensenews.com/news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/",
     "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
@@ -499,9 +490,90 @@
     "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
     "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
     "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-    "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html"
+    "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+    "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/fifa-turns-to-influencers-to-promote-u17-world-cup?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+    "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/ice-officers-smash-car-window-pepper-spray-bystanders?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
   ],
   "recent_items": [
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "BBC WORLD",
+      "title": "Has global jihadism failed, or is it simply changing shape?",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "Colombian president taunts arrested supermarket hostage-takers",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "Anthropic CEO Amodei denies wanting humanity to \u2018surrender\u2019 free will to AI",
+      "link": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "FIFA turns to influencers to promote U17 World Cup",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/fifa-turns-to-influencers-to-promote-u17-world-cup?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+      "link": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "Photos: Storms and an El Nino-charged king tide batter California\u2019s coast",
+      "link": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "Ukraine attacks Russian military base, says five planes struck",
+      "link": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "AL JAZEERA",
+      "title": "ICE officers smash car window, pepper spray bystanders",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/ice-officers-smash-car-window-pepper-spray-bystanders?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 03:57 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/25 21:55 UTC",
       "source": "BBC WORLD",
@@ -789,78 +861,6 @@
       "link": "https://www.aljazeera.com/sports/2026/11/25/zidane-was-much-better-than-me-bellingham-after-real-madrid-wonder-goal?traffic_source=rss",
       "priority": false,
       "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Israeli strike kills Hamas official, his wife and children",
-      "link": "https://www.aljazeera.com/news/2026/11/25/israeli-strike-kills-hamas-official-his-wife-and-children?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Buried in Italy\u2019s budget, officials see Rome meeting NATO spending target",
-      "link": "https://www.defensenews.com/global/europe/2026/11/25/buried-in-italys-budget-officials-see-rome-meeting-nato-spending-target/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Czech jet engine maker eyes growing role as US supplier in drones, missiles",
-      "link": "https://www.defensenews.com/global/europe/2026/11/25/czech-jet-engine-maker-eyes-growing-role-as-us-supplier-in-drones-missiles/",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft fixes Microsoft 365 bug blocking access to Office apps",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-fixes-blank-dialog-that-made-microsoft-365-office-apps-unusable/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft confirms authentication issues after November updates",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-confirms-authentication-issues-after-november-updates/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Hackers reportedly breached CIA intelligence analysis system",
-      "link": "https://www.bleepingcomputer.com/news/security/hackers-reportedly-breached-cia-intelligence-analysis-system/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Credential Remediation Is Slow When You Don\u2019t Know What Will Break",
-      "link": "https://thehackernews.com/2026/11/credential-remediation-is-slow-when-you.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
-      "link": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
-      "priority": false,
-      "theater": "CYBER"
     }
   ]
 }
