@@ -1,22 +1,5 @@
 {
   "seen_links": [
-    "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
-    "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/c5n4exg1kkmyo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cw5y1v8de35go?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/news/2026/11/17/yemen-army-reports-661-attacks-on-houthis-amid-houthi-push-towards-aden?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/17/irish-court-jails-man-for-life-over-dublin-knife-attack-that-sparked-riots?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/17/eu-countries-announce-migrant-deportation-centre-in-rwanda?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/17/ukraine-holds-peace-talks-with-us-europe-as-conflict-escalates?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/17/uk-seeks-closer-ties-with-eu-after-brexit-fail?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/17/ethiopia-moyale-clashes-disrupt-livelihoods-as-territorial-dispute-deepens?traffic_source=rss",
-    "https://www.aljazeera.com/news/liveblog/2026/11/16/live-houthis-advance-in-yemen-as-tankers-hit-sea-mines-in-strait-of-hormuz?traffic_source=rss",
-    "https://www.defensenews.com/air/2026/11/16/first-permanently-assigned-f-15exs-touch-down-at-kadena-air-base/",
-    "https://www.defensenews.com/global/mideast-africa/2026/11/16/us-army-takes-urgent-action-to-build-concrete-bunkers-across-the-middle-east/",
-    "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-    "https://www.bleepingcomputer.com/news/security/google-project-zero-cuts-bug-disclosure-deadline-to-30-days-amid-ai-threats/",
-    "https://www.bleepingcomputer.com/news/security/california-sues-openai-over-ai-agents-escaping-sandboxes-hacking-firms/",
     "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
     "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
@@ -499,9 +482,162 @@
     "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
     "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
     "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-    "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
+    "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+    "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/26/report-cia-tortured-more-people-with-waterboarding-than-us-agency-admitted?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_indian-politician-facing-murder-charges-wedding-261126?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+    "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+    "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+    "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+    "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+    "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
   ],
   "recent_items": [
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BBC WORLD",
+      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
+      "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BBC WORLD",
+      "title": "G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+      "link": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BBC WORLD",
+      "title": "Pregnant US inmate escapes in prison vehicle after medical appointment",
+      "link": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BBC WORLD",
+      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+      "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Report: CIA tortured more people with waterboarding than US agency admitted",
+      "link": "https://www.aljazeera.com/news/2026/11/26/report-cia-tortured-more-people-with-waterboarding-than-us-agency-admitted?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
+      "link": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Bangladesh garment workers clash with police over low wages",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Attack on Saudi\u2019s Jazan refinery kills one person, disrupts operations",
+      "link": "https://www.aljazeera.com/news/2026/11/26/attack-on-saudi-aramcos-jazan-refinery-kills-worker-disrupts-operations?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Indian politician facing murder charges hosts 400,000-guest wedding",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/aje-onl-nf_indian-politician-facing-murder-charges-wedding-261126?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Mexico seeks US talks about suspected SpaceX debris",
+      "link": "https://www.aljazeera.com/news/2026/11/26/mexico-seeks-us-talks-about-suspected-spacex-debris?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "AL JAZEERA",
+      "title": "Musk pledges two SpaceX shares for every US child",
+      "link": "https://www.aljazeera.com/economy/2026/11/26/musk-pledges-two-spacex-shares-for-every-us-child?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+      "link": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "NordVPN Black Friday Deal: Get 78% off VPN plans in 2026",
+      "link": "https://www.bleepingcomputer.com/news/security/nordvpn-black-friday-deal-get-78-percent-off-vpn-plans-in-2026/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Fake paid expert interviews impersonate brands to steal Google logins",
+      "link": "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Remus malware steals Gmail messages via fake Google Sheets extension",
+      "link": "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "ThreatsDay: 10M NGINX Services at Risk, 250+ Malicious Extensions, AI Server Hijacking + 17 More Stories",
+      "link": "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 22:49 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+      "link": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/26 13:41 UTC",
       "source": "BBC WORLD",
@@ -723,142 +859,6 @@
       "source": "AL JAZEERA",
       "title": "ICE officers smash car window, pepper spray bystanders",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/ice-officers-smash-car-window-pepper-spray-bystanders?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BBC WORLD",
-      "title": "At least 30 killed in massive fire as fuel tanker crashes on Cairo highway",
-      "link": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BBC WORLD",
-      "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
-      "link": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BBC WORLD",
-      "title": "US stocks fall further as fears over AI intensify",
-      "link": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BBC WORLD",
-      "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
-      "link": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BBC WORLD",
-      "title": "North Korea expels Swiss diplomat in sanctions row",
-      "link": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "Winter rains threaten 1,000 Gaza shelter sites, councils warn",
-      "link": "https://www.aljazeera.com/news/2026/11/25/winter-rains-threaten-1000-gaza-shelter-sites-councils-warn?traffic_source=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "US Education Department probes Virginia schools after sexual abuse scandal",
-      "link": "https://www.aljazeera.com/news/2026/11/25/us-education-department-probes-virginia-schools-after-sexual-abuse-scandal?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "Baby Aliyah steals the show during Australian Senate debate",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/baby-aliyah-steals-the-show-during-australian-senate-debate?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "What\u2019s behind Europe\u2019s protests?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/11/25/whats-behind-europes-protests?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "Netanyahu says corruption trial \u2018must end\u2019 as court suggests dropping case",
-      "link": "https://www.aljazeera.com/news/2026/11/25/netanyahu-says-corruption-trial-must-end-as-court-suggests-dropping-case?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "Migrant wrongly deported by Trump leaves US for Spain",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/migrant-wrongly-deported-by-trump-leaves-us-for-spain?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "AL JAZEERA",
-      "title": "Elderly man with Alzheimer\u2019s rescued after 11 days in Amazon jungle",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/aje-onl-nf_man-with-alzheimers-rescued-after-11-days-in-amazon-251126?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Carla Babb Named Head of Content for Military Times and Defense News",
-      "link": "https://www.defensenews.com/news/2026/11/25/carla-babb-named-head-of-content-for-military-times-and-defense-news/",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Estimates of Russians killed in Ukraine surpass all combined US war deaths since WWI",
-      "link": "https://www.defensenews.com/global/europe/2026/11/25/estimates-of-russians-killed-in-ukraine-surpass-all-combined-us-war-deaths-since-wwi/",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Blast heard, smoke seen rising over farmland near Iowa Army lead azide detonation site",
-      "link": "https://www.defensenews.com/video/2026/11/25/blast-heard-smoke-seen-rising-over-farmland-near-iowa-army-lead-azide-detonation-site/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "US Air Force buys final KC-46 lot under Boeing\u2019s original tanker deal",
-      "link": "https://www.defensenews.com/industry/techwatch/2026/11/25/us-air-force-buys-final-kc-46-lot-under-boeings-original-tanker-deal/",
       "priority": false,
       "theater": "GLOBAL"
     }
