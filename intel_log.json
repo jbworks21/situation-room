@@ -1,25 +1,5 @@
 {
   "seen_links": [
-    "https://www.defensenews.com/video/2026/11/16/new-tools-for-troops-to-gun-down-drones-defense-news-weekly-full-episode-11-17-26/",
-    "https://www.defensenews.com/news/2026/11/16/europe-hunts-for-palantir-alternatives-as-militaries-seek-to-limit-us-dependence/",
-    "https://www.defensenews.com/global/asia-pacific/2026/11/16/china-has-normalized-naval-presence-near-japan-since-political-spat-of-2025/",
-    "https://www.defensenews.com/industry/techwatch/2026/11/16/us-and-russia-to-oppose-talks-on-limiting-autonomous-weapons/",
-    "https://www.defensenews.com/global/europe/2026/11/16/italy-backs-rapid-german-membership-path-into-gcap-fighter-program/",
-    "https://www.defensenews.com/industry/2026/11/16/marine-corps-doubles-extends-contract-for-m27-rifles/",
-    "https://www.defensenews.com/video/2026/11/16/drone-meet-bullet-companies-develop-new-counter-uas-capability-business-of-defense-part-3/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-says-months-old-bug-caused-global-microsoft-365-outage/",
-    "https://www.bleepingcomputer.com/news/security/fandango-says-hackers-stole-payment-card-details-from-checkout-pages/",
-    "https://www.bleepingcomputer.com/news/security/7-tips-for-complying-with-cjis-password-and-mfa-requirements/",
-    "https://www.bleepingcomputer.com/news/security/google-warns-that-fully-automated-ai-attacks-are-coming-soon/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-windows-server-2016-reaches-end-of-support-in-60-days/",
-    "https://www.bleepingcomputer.com/news/security/australian-retail-giant-coles-investigates-cybersecurity-incident/",
-    "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropics-claude-fable-52-blocks-fewer-security-tasks-while-mythos-gets-better-at-finding-bugs/",
-    "https://thehackernews.com/2026/11/google-finds-hackers-using-ai-agents-to.html",
-    "https://thehackernews.com/2026/11/weekly-recap-n-able-0-days-windows-0.html",
-    "https://thehackernews.com/2026/11/six-unpatched-danfoss-refrigeration.html",
-    "https://thehackernews.com/2026/11/retadup-worm-resurfaces-7-years-after.html",
-    "https://thehackernews.com/2026/11/sansar-linux-cryptomining-malware-uses.html",
-    "https://thehackernews.com/2026/11/amazon-uncovers-ai-agent-campaign.html",
     "https://thehackernews.com/2026/11/bo-team-exploits-log4shell-in-vmware.html",
     "https://www.bbc.co.uk/news/articles/cmy97qperq9eo?at_medium=RSS&at_campaign=rss",
     "https://www.bbc.co.uk/news/videos/cmd91xjd9zk2o?at_medium=RSS&at_campaign=rss",
@@ -499,9 +479,189 @@
     "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/26/ice-officers-smash-car-window-pepper-spray-bystanders?traffic_source=rss",
-    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/"
+    "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+    "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+    "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/26/james-fergie-chambers-us-trying-to-cast-antiwar-ideas-as-extremist?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+    "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+    "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+    "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+    "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+    "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html"
   ],
   "recent_items": [
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
+      "link": "https://www.bbc.co.uk/news/articles/cqlymky8kpzjo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+      "link": "https://www.bbc.co.uk/news/videos/cvglrz5yr79go?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Myanmar refuses to comply with parts of ICJ genocide ruling",
+      "link": "https://www.bbc.co.uk/news/articles/c61wr87wyg5wo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Desperate appeals from women on death row in Iran after protests",
+      "link": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
+      "link": "https://www.bbc.co.uk/news/articles/c9gklryvj24do?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+      "link": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BBC WORLD",
+      "title": "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
+      "link": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "link": "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "Film shows testimonies of international doctors amid Gaza genocide",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/film-shows-testimonies-of-international-doctors-amid-gaza-genocide?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "Eyewitnesses describe scenes of Egypt\u2019s deadly vehicle fire",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/eyewitnesses-describe-scenes-of-egypts-deadly-vehicle-fire?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "FIFA says personal and business information stolen in cyberattack",
+      "link": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "With the rise of AI, are we close to having universal basic income",
+      "link": "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "\u2018Symbolic\u2019: Why did UK sanction Yemen\u2019s Houthis amid attacks on Saudi?",
+      "link": "https://www.aljazeera.com/news/2026/11/26/symbolic-why-did-uk-sanction-yemens-houthis-amid-attacks-on-saudi?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "AL JAZEERA",
+      "title": "James \u2018Fergie\u2019 Chambers: US trying to cast \u2018antiwar ideas as extremist\u2019",
+      "link": "https://www.aljazeera.com/news/2026/11/26/james-fergie-chambers-us-trying-to-cast-antiwar-ideas-as-extremist?traffic_source=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "link": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Most Wanted: The Phishing Kits and Techniques Getting Past Security Controls",
+      "link": "https://thehackernews.com/2026/11/most-wanted-phishing-kits-and.html",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+      "link": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+      "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/26 13:41 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+      "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/26 03:57 UTC",
       "source": "BBC WORLD",
@@ -699,166 +859,6 @@
       "source": "DEFENSE NEWS",
       "title": "US Air Force buys final KC-46 lot under Boeing\u2019s original tanker deal",
       "link": "https://www.defensenews.com/industry/techwatch/2026/11/25/us-air-force-buys-final-kc-46-lot-under-boeings-original-tanker-deal/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Japan to use Indian ranges for long-range missile training under new pact",
-      "link": "https://www.defensenews.com/global/asia-pacific/2026/11/25/japan-to-use-indian-ranges-for-long-range-missile-training-under-new-pact/",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "1Password customer data stolen after employee GitHub account breach",
-      "link": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
-      "link": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
-      "link": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
-      "link": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
-      "link": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 21:55 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
-      "link": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "Russia's own figures show it has lost almost 500,000 people in Ukraine war",
-      "link": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "My family died in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
-      "link": "https://www.bbc.co.uk/news/articles/cw24e17v9e51o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
-      "link": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "Thomas Markle charged in US for possessing child sex abuse images",
-      "link": "https://www.bbc.co.uk/news/articles/crwy4egxn592o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "link": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "BBC WORLD",
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "link": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Overnight RSF drone attacks kill 19 in Sudan",
-      "link": "https://www.aljazeera.com/news/2026/11/25/overnight-rsf-drone-attacks-kill-19-in-sudan?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Ex England star Sterling given suspended sentence for dangerous driving",
-      "link": "https://www.aljazeera.com/sports/2026/11/25/ex-england-star-sterling-given-suspended-sentence-for-dangerous-driving?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Fire breaks out following drone strikes on a residential area in Al Damazin",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/25/fire-breaks-out-following-drone-strikes-on-a-residential-area-in-al-damazin?traffic_source=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Sinner uncertain for Australian Open after undergoing knee surgery",
-      "link": "https://www.aljazeera.com/sports/2026/11/25/sinner-uncertain-for-australian-open-after-undergoing-knee-surgery?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "After Brexit, is Britain heading back to the EU?",
-      "link": "https://www.aljazeera.com/video/counting-the-cost/2026/11/25/after-brexit-is-britain-heading-back-to-the-eu?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/25 12:16 UTC",
-      "source": "AL JAZEERA",
-      "title": "Zidane was much better than me: Bellingham after Real Madrid wonder goal",
-      "link": "https://www.aljazeera.com/sports/2026/11/25/zidane-was-much-better-than-me-bellingham-after-real-madrid-wonder-goal?traffic_source=rss",
       "priority": false,
       "theater": "GLOBAL"
     }
