@@ -1,15 +1,5 @@
 {
   "seen_links": [
-    "https://www.bleepingcomputer.com/news/security/barracuda-links-cloud-breach-to-artex-ai-powered-cyberattack/",
-    "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/c30rk8x5g80qo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cr868wd2qg18o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cr894xq5yeyko?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/ck1ewl2zjqgzo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/c60evw20qe47o?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/17/afghanistan-women-defy-taliban-ban-to-pursue-their-ambitions-in-secret?traffic_source=rss",
-    "https://www.aljazeera.com/economy/2026/11/17/powering-towns-on-pig-manure-how-denmark-has-transformed-energy-generation?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/17/as-knesset-readies-for-new-speaker-israeli-opposition-holds-powerful-role?traffic_source=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/journalist-who-exposed-alleged-drug-links-shot-dead-in-costa-rica?traffic_source=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/17/kim-jong-un-tours-north-korea-ski-resort-with-daughter-ju-ae?traffic_source=rss",
     "https://www.aljazeera.com/sports/2026/11/17/irish-boxer-lee-reeves-31-dies-three-months-after-sustaining-injuries?traffic_source=rss",
@@ -499,9 +489,99 @@
     "https://www.bleepingcomputer.com/news/apple/fake-paid-expert-interviews-impersonate-brands-to-steal-google-logins/",
     "https://www.bleepingcomputer.com/news/security/remus-malware-steals-gmail-messages-via-fake-google-sheets-extension/",
     "https://thehackernews.com/2026/11/threatsday-250-rogue-extensions-10m.html",
-    "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html"
+    "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+    "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/27/spain-and-morocco-under-17-stars-target-world-cup-2030?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/27/trump-says-the-us-has-close-to-50-of-worlds-oil?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/27/clashes-halt-match-as-turkiye-football-fans-raise-palestinian-flags?traffic_source=rss"
   ],
   "recent_items": [
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "BBC WORLD",
+      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "BBC WORLD",
+      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
+      "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "BBC WORLD",
+      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+      "link": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
+      "link": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump downplays Russia, China support for Iran during talks with US troops",
+      "link": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Asian stock markets rise after earlier tech rout",
+      "link": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Spain and Morocco under-17 stars target World Cup 2030",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spain-and-morocco-under-17-stars-target-world-cup-2030?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
+      "link": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Trump says the US has \u2018close to 50%\u2019 of world\u2019s oil",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/trump-says-the-us-has-close-to-50-of-worlds-oil?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 04:48 UTC",
+      "source": "AL JAZEERA",
+      "title": "Clashes halt match as Turkiye football fans raise Palestinian flags",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/clashes-halt-match-as-turkiye-football-fans-raise-palestinian-flags?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
     {
       "time": "11/26 22:49 UTC",
       "source": "BBC WORLD",
@@ -781,86 +861,6 @@
       "link": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
       "priority": true,
       "theater": "CYBER"
-    },
-    {
-      "time": "11/26 13:41 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
-      "link": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/26 13:41 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
-      "link": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "BBC WORLD",
-      "title": "Has global jihadism failed, or is it simply changing shape?",
-      "link": "https://www.bbc.co.uk/news/articles/cmx2x4e0n5jro?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "Colombian president taunts arrested supermarket hostage-takers",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "Anthropic CEO Amodei denies wanting humanity to \u2018surrender\u2019 free will to AI",
-      "link": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "FIFA turns to influencers to promote U17 World Cup",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/fifa-turns-to-influencers-to-promote-u17-world-cup?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
-      "link": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "Photos: Storms and an El Nino-charged king tide batter California\u2019s coast",
-      "link": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "Ukraine attacks Russian military base, says five planes struck",
-      "link": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/26 03:57 UTC",
-      "source": "AL JAZEERA",
-      "title": "ICE officers smash car window, pepper spray bystanders",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/ice-officers-smash-car-window-pepper-spray-bystanders?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
     }
   ]
 }
