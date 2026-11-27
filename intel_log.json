@@ -1,24 +1,5 @@
 {
   "seen_links": [
-    "https://www.defensenews.com/pentagon/2026/11/17/pentagon-fails-ninth-straight-audit-despite-progress-in-organizing-finances/",
-    "https://www.defensenews.com/global/asia-pacific/2026/11/17/new-pact-positions-the-philippines-as-a-defense-hub-for-australian-troops/",
-    "https://www.bleepingcomputer.com/news/security/researchers-hijack-hugging-face-account-for-popular-kokoro-ai-model/",
-    "https://www.bleepingcomputer.com/news/security/tor-releases-emergency-update-amid-ongoing-ddos-attack/",
-    "https://www.bleepingcomputer.com/news/hardware/flipper-devices-launches-399-flipper-one-linux-based-multi-tool/",
-    "https://www.bleepingcomputer.com/news/security/inside-modern-phishing-kits-built-to-steal-microsoft-365-sessions/",
-    "https://www.bleepingcomputer.com/news/microsoft/microsoft-testing-remote-lock-for-lost-or-stolen-windows-devices/",
-    "https://thehackernews.com/2026/11/hackers-found-way-around-github-sha.html",
-    "https://thehackernews.com/2026/11/researchers-detail-iphone-flaw-that-let.html",
-    "https://thehackernews.com/2026/11/new-gitdoor-and-graphdoor-backdoors.html",
-    "https://thehackernews.com/2026/11/apple-tightens-macos-app-permissions-to.html",
-    "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/ckg5ry8m49ggo?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cw8085rykkmgo?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/18/protests-as-jason-ardays-accuser-speaks-at-oxford-university?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/18/board-of-peace-warns-gaza-ceasefire-faces-imminent-collapse-without-action?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/18/ecuadorian-fishermen-sue-trump-administration-over-drone-strike?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/18/dr-congos-rival-peace-efforts-fail-to-halt-violence-in-the-east?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/18/eisenkot-ally-elected-knesset-speaker-with-arab-blocs-backing?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions?traffic_source=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/18/forensic-experts-claim-epstein-was-strangled-to-death?traffic_source=rss",
     "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/",
@@ -499,9 +480,180 @@
     "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
     "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
     "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-    "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html"
+    "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+    "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
+    "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+    "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+    "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+    "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+    "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+    "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+    "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
   ],
   "recent_items": [
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
+      "link": "https://www.bbc.co.uk/news/articles/c3pw4yrr8kz9o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+      "link": "https://www.bbc.co.uk/news/articles/ckd71ypy9e8eo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "Brazil pushes back on Macron calling its meat 'doped'",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg28npvzeo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
+      "link": "https://www.bbc.co.uk/news/articles/cmx2898wq2qjo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BBC WORLD",
+      "title": "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
+      "link": "https://www.bbc.co.uk/news/articles/cvrlgz6g0ekgo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "Kenyan cult leader guilty of manslaughter more than 123 starvation deaths",
+      "link": "https://www.aljazeera.com/news/2026/11/27/kenyan-cult-leader-guilty-of-manslaughter-more-than-123-starvation-deaths?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+      "link": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade?traffic_source=rss",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "\u2018Activists of rhythm\u2019: Fighting Spain\u2019s far-right through art",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/activists-of-rhythm-fighting-spains-far-right-through-art?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "Why are families going hungry in northern Yemen even where food is on sale?",
+      "link": "https://www.aljazeera.com/economy/2026/11/27/why-are-families-going-hungry-in-northern-yemen-even-where-food-is-on-sale?traffic_source=rss",
+      "priority": false,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "Venezuela to repeal law that bans opposition figures from office",
+      "link": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+      "link": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "AL JAZEERA",
+      "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+      "link": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons?traffic_source=rss",
+      "priority": true,
+      "theater": "EUROPE"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "pCloud confirms password manager hack after suspicious login alerts",
+      "link": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "New Boston Scientific data breach exposes personal, medical info",
+      "link": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Unpatched Cacti zero-day with public PoC gives remote code execution",
+      "link": "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+      "link": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+      "priority": true,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "BLEEPING COMPUTER",
+      "title": "Your Firewall Isn't Enough: The Hidden Risk of Unmanaged VMs",
+      "link": "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
+      "priority": false,
+      "theater": "CYBER"
+    },
+    {
+      "time": "11/27 23:14 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+      "link": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/27 14:43 UTC",
       "source": "BBC WORLD",
@@ -709,158 +861,6 @@
       "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
       "priority": true,
       "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
-      "link": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
-      "link": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "BBC WORLD",
-      "title": "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
-      "link": "https://www.bbc.co.uk/news/articles/c820q9wgrpyyo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "BBC WORLD",
-      "title": "Major Thanksgiving storm brings flooding, flight delays across US",
-      "link": "https://www.bbc.co.uk/news/articles/ckm2mz3prq77o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "BBC WORLD",
-      "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
-      "link": "https://www.bbc.co.uk/news/articles/c670278qk879o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "At least 13 Niger soldiers killed in Sanam armed attack",
-      "link": "https://www.aljazeera.com/news/2026/11/27/at-least-13-niger-soldiers-killed-in-sanam-armed-attack?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Trump downplays Russia, China support for Iran during talks with US troops",
-      "link": "https://www.aljazeera.com/news/2026/11/27/trump-downplays-russia-china-support-for-iran-during-talks-with-us-troops?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Asian stock markets rise after earlier tech rout",
-      "link": "https://www.aljazeera.com/economy/2026/11/27/asian-stock-markets-rise-after-earlier-tech-rout?traffic_source=rss",
-      "priority": false,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Spain and Morocco under-17 stars target World Cup 2030",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spain-and-morocco-under-17-stars-target-world-cup-2030?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Zelenskyy warns of major Russian attack as Trump urges Putin to \u2018pull back\u2019",
-      "link": "https://www.aljazeera.com/news/2026/11/27/zelenskyy-warns-of-major-russian-attack-as-trump-urges-putin-to-pull-back?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Trump says the US has \u2018close to 50%\u2019 of world\u2019s oil",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/trump-says-the-us-has-close-to-50-of-worlds-oil?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 04:48 UTC",
-      "source": "AL JAZEERA",
-      "title": "Clashes halt match as Turkiye football fans raise Palestinian flags",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/clashes-halt-match-as-turkiye-football-fans-raise-palestinian-flags?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "BBC WORLD",
-      "title": "Watch: Roofs torn off and streets under water as severe weather hits US",
-      "link": "https://www.bbc.co.uk/news/videos/cq808d704m22o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "BBC WORLD",
-      "title": "G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-      "link": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "BBC WORLD",
-      "title": "Pregnant US inmate escapes in prison vehicle after medical appointment",
-      "link": "https://www.bbc.co.uk/news/articles/c9m2jke85xzxo?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "BBC WORLD",
-      "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
-      "link": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "AL JAZEERA",
-      "title": "Report: CIA tortured more people with waterboarding than US agency admitted",
-      "link": "https://www.aljazeera.com/news/2026/11/26/report-cia-tortured-more-people-with-waterboarding-than-us-agency-admitted?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "AL JAZEERA",
-      "title": "Egypt detains driver over Cairo fuel tanker fire that killed 31",
-      "link": "https://www.aljazeera.com/news/2026/11/26/egypt-detains-driver-over-cairo-fuel-tanker-fire-that-killed-31?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/26 22:49 UTC",
-      "source": "AL JAZEERA",
-      "title": "Bangladesh garment workers clash with police over low wages",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/26/bangladesh-garment-workers-clash-with-police-over-low-wages?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
     }
   ]
 }
