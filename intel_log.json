@@ -1,15 +1,5 @@
 {
   "seen_links": [
-    "https://www.aljazeera.com/news/2026/11/18/top-irgc-commander-in-iraq-for-talks-amid-kataib-hezbollah-tensions?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/18/forensic-experts-claim-epstein-was-strangled-to-death?traffic_source=rss",
-    "https://www.defensenews.com/video/2026/11/17/acting-navy-secretary-hung-cao-faces-transparency-questions-in-senate-confirmation-hearing/",
-    "https://www.defensenews.com/industry/techwatch/2026/11/17/hanwha-transforms-ship-into-floating-multi-rocket-launcher/",
-    "https://www.defensenews.com/video/2026/11/17/watch-a-large-aerial-drone-evacuate-a-wounded-ukrainian-soldier-from-the-front-line/",
-    "https://www.defensenews.com/news/pentagon-congress/2026/11/17/laneve-formally-nominated-for-army-chief-of-staff-role/",
-    "https://www.bleepingcomputer.com/news/security/critical-java4shell-flaw-allows-rce-attacks-on-major-java-applications/",
-    "https://www.bleepingcomputer.com/news/security/cloud-keys-leaked-in-docker-hub-images-are-stolen-within-seconds/",
-    "https://www.bleepingcomputer.com/news/security/japan-takes-fugaku-supercomputer-offlline-after-cyberattack/",
-    "https://www.bleepingcomputer.com/news/apple/apple-reports-outages-affecting-icloud-mail-applecare-and-more/",
     "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
     "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
     "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
@@ -499,9 +489,99 @@
     "https://www.bleepingcomputer.com/news/security/unpatched-cacti-zero-day-with-public-poc-gives-remote-code-execution/",
     "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
     "https://www.bleepingcomputer.com/news/security/your-firewall-isnt-enough-the-hidden-risk-of-unmanaged-vms/",
-    "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html"
+    "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+    "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cw074p95ye5do?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/28/un-chief-frontrunner-urged-to-speak-out-over-albanese-detention-2?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/last-local-militant-india-declares-victory-but-kashmirs-rebels-adapt?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/28/the-split-second-teamwork-behind-an-f1-pit-stop?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/hunted-beyond-borders-allegations-of-tanzanian-repression-in-kenya?traffic_source=rss"
   ],
   "recent_items": [
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "BBC WORLD",
+      "title": "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/cq36gk151xkdo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "BBC WORLD",
+      "title": "Eight killed in Peruvian military helicopter crash",
+      "link": "https://www.bbc.co.uk/news/articles/cwp9d85mlp88o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "BBC WORLD",
+      "title": "Millions of wives in South Asia unprotected from marital rape - study",
+      "link": "https://www.bbc.co.uk/news/articles/cw074p95ye5do?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "UN chief frontrunner urged to speak out over Albanese detention",
+      "link": "https://www.aljazeera.com/news/2026/11/28/un-chief-frontrunner-urged-to-speak-out-over-albanese-detention-2?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "\u2018Last local militant\u2019: India declares victory but Kashmir\u2019s rebels adapt",
+      "link": "https://www.aljazeera.com/news/2026/11/28/last-local-militant-india-declares-victory-but-kashmirs-rebels-adapt?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "The split-second teamwork behind an F1 pit stop",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/the-split-second-teamwork-behind-an-f1-pit-stop?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "Israeli strike on Doctors Without Borders clinic in Gaza kills two staff",
+      "link": "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "Parts of US clean up after Thanksgiving storm lashes East Coast",
+      "link": "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "Bulgarians demand action by French after Marseille match violence",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 04:52 UTC",
+      "source": "AL JAZEERA",
+      "title": "Hunted beyond borders: Allegations of Tanzanian repression in Kenya",
+      "link": "https://www.aljazeera.com/news/2026/11/28/hunted-beyond-borders-allegations-of-tanzanian-repression-in-kenya?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
     {
       "time": "11/27 23:14 UTC",
       "source": "BBC WORLD",
@@ -781,86 +861,6 @@
       "link": "https://www.defensenews.com/global/europe/2026/11/27/leonardo-rolls-out-first-m-346-jet-for-italys-air-force-stunt-flying-unit/",
       "priority": false,
       "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "France kicks off defense-industry pact to build up counter-drone efforts",
-      "link": "https://www.defensenews.com/global/europe/2026/11/27/france-kicks-off-defense-industry-pact-to-build-up-counter-drone-efforts/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Malwarebytes Antivirus: Get 50% off during Black Friday 2026",
-      "link": "https://www.bleepingcomputer.com/news/security/malwarebytes-antivirus-get-50-percent-off-during-black-friday-2026/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft removes WSUS server role in Windows Server 2028",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/microsoft-removes-wsus-server-role-in-windows-server-2028/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Drupal warns of new site takeover flaw exploited in attacks",
-      "link": "https://www.bleepingcomputer.com/news/security/drupal-warns-of-new-access-bypass-flaw-exploited-in-attacks/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "SAP confirms security incident after suspicious GitHub activity",
-      "link": "https://www.bleepingcomputer.com/news/security/sap-confirms-security-incident-after-suspicious-github-activity/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
-      "link": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BLEEPING COMPUTER",
-      "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
-      "link": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Microsoft Store App Found Delivering Vinci RAT Capable of Remote System Control",
-      "link": "https://thehackernews.com/2026/11/microsoft-store-app-found-delivering.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "How to Keep Your Security Picture Current When Attackers Move at AI Speed",
-      "link": "https://thehackernews.com/2026/11/how-to-keep-your-security-picture.html",
-      "priority": false,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "THE HACKER NEWS",
-      "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
-      "link": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
-      "priority": true,
-      "theater": "CYBER"
     }
   ]
 }
