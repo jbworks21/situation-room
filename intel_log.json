@@ -1,18 +1,5 @@
 {
   "seen_links": [
-    "https://thehackernews.com/2026/11/researchers-claim-two-rce-exploits-that.html",
-    "https://thehackernews.com/2026/11/oracle-to-patch-11-java-flaws-today-as.html",
-    "https://thehackernews.com/2026/11/trigram-campaign-impersonates-about-50.html",
-    "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o?at_medium=RSS&at_campaign=rss",
-    "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo?at_medium=RSS&at_campaign=rss",
-    "https://www.aljazeera.com/gallery/2026/11/18/photos-thousands-march-in-haiti-in-support-of-salvadoran-troops?traffic_source=rss",
-    "https://www.aljazeera.com/sports/2026/11/18/sandpapergate-cricket-australia-to-open-forum-for-players-rules-out-probe?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/18/india-uk-ties-outride-modis-decolonisation-rhetoric?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/18/arsenic-pollution-linked-to-myanmar-mining-prompts-water-alert-in-thailand?traffic_source=rss",
-    "https://www.aljazeera.com/video/newsfeed/2026/11/18/paris-hilton-and-aoc-speak-against-ai-generated-deepfakes?traffic_source=rss",
-    "https://www.aljazeera.com/sports/2026/11/18/venezuelan-boxer-linares-detained-in-us-and-faces-deportation-ice-confirms?traffic_source=rss",
-    "https://www.aljazeera.com/features/2026/11/18/we-want-to-go-back-rohingya-refugees-pin-hopes-on-icj-genocide-verdict?traffic_source=rss",
     "https://www.bleepingcomputer.com/news/microsoft/microsoft-announces-windows-server-2028-with-hardened-security/",
     "https://www.bleepingcomputer.com/news/security/british-scattered-spider-hacker-sentenced-to-6-years-in-prison/",
     "https://thehackernews.com/2026/11/attackers-compromise-microsofts-agent.html",
@@ -499,9 +486,126 @@
     "https://www.aljazeera.com/news/2026/11/28/israeli-strike-on-doctors-without-borders-clinic-in-gaza-kills-two-staff?traffic_source=rss",
     "https://www.aljazeera.com/news/2026/11/28/parts-of-us-clean-up-after-thanksgiving-storm-lashes-east-coast?traffic_source=rss",
     "https://www.aljazeera.com/video/newsfeed/2026/11/28/bulgarians-demand-action-by-french-after-marseille-match-violence?traffic_source=rss",
-    "https://www.aljazeera.com/news/2026/11/28/hunted-beyond-borders-allegations-of-tanzanian-repression-in-kenya?traffic_source=rss"
+    "https://www.aljazeera.com/news/2026/11/28/hunted-beyond-borders-allegations-of-tanzanian-repression-in-kenya?traffic_source=rss",
+    "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+    "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+    "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/bootleg-alcohol-poisonings-in-iran-see-dozens-dead-and-badly-injured?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/norse-atlantic-ends-flights-how-iran-war-continues-to-batter-aviation?traffic_source=rss",
+    "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race?traffic_source=rss",
+    "https://www.aljazeera.com/video/newsfeed/2026/11/28/tarantulas-scorpions-and-more-found-in-luggage-at-peru-airport?traffic_source=rss",
+    "https://www.aljazeera.com/sports/liveblog/2026/11/28/manchester-united-vs-brentford-live-premier-league?traffic_source=rss",
+    "https://www.aljazeera.com/sports/2026/11/28/india-fumble-chances-as-new-zealand-finish-day-two-on-top-in-christchurch?traffic_source=rss",
+    "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html"
   ],
   "recent_items": [
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "BBC WORLD",
+      "title": "Argentina's bid to stop Falklands oil drilling rejected",
+      "link": "https://www.bbc.co.uk/news/articles/c84gnq3qq9rno?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "BBC WORLD",
+      "title": "Two staff killed in Israeli strike on Gaza medical clinic, MSF says",
+      "link": "https://www.bbc.co.uk/news/articles/cm5y10yydln3o?at_medium=RSS&at_campaign=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "BBC WORLD",
+      "title": "Afghanistan explosion kills 10 students and injures more than 100, official says",
+      "link": "https://www.bbc.co.uk/news/articles/ckp80jyz6dl8o?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "BBC WORLD",
+      "title": "OpenAI counter-sues Apple over alleged theft of trade secrets",
+      "link": "https://www.bbc.co.uk/news/articles/cm15ekqvlezeo?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "BBC WORLD",
+      "title": "Australian wrestler Bronson Reed dies aged 38, WWE says",
+      "link": "https://www.bbc.co.uk/news/articles/cvwy08g70ldko?at_medium=RSS&at_campaign=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Court rejects Argentina\u2019s request to stop UK oil activity near Falklands",
+      "link": "https://www.aljazeera.com/news/2026/11/28/court-rejects-argentinas-request-to-stop-uk-oil-activity-near-falklands?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Bootleg alcohol poisonings in Iran see dozens dead and badly injured",
+      "link": "https://www.aljazeera.com/news/2026/11/28/bootleg-alcohol-poisonings-in-iran-see-dozens-dead-and-badly-injured?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Norse Atlantic ends flights: How Iran war continues to batter aviation",
+      "link": "https://www.aljazeera.com/news/2026/11/28/norse-atlantic-ends-flights-how-iran-war-continues-to-batter-aviation?traffic_source=rss",
+      "priority": true,
+      "theater": "MIDEAST"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Taiwan opposition party wins re-election in Taipei mayoral race",
+      "link": "https://www.aljazeera.com/news/2026/11/28/taiwan-opposition-party-wins-re-election-in-taipei-mayoral-race?traffic_source=rss",
+      "priority": false,
+      "theater": "INDOPACIFIC"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Tarantulas, scorpions and more found in luggage at Peru airport",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/28/tarantulas-scorpions-and-more-found-in-luggage-at-peru-airport?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "Manchester United vs Brentford LIVE: Premier League",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/11/28/manchester-united-vs-brentford-live-premier-league?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "AL JAZEERA",
+      "title": "India fumble chances as New Zealand finish day two on top in Christchurch",
+      "link": "https://www.aljazeera.com/sports/2026/11/28/india-fumble-chances-as-new-zealand-finish-day-two-on-top-in-christchurch?traffic_source=rss",
+      "priority": false,
+      "theater": "GLOBAL"
+    },
+    {
+      "time": "11/28 13:55 UTC",
+      "source": "THE HACKER NEWS",
+      "title": "pCloud Password Manager Hit by Cyber Attack Involving Email Address Exposure and Login Attempts",
+      "link": "https://thehackernews.com/2026/11/pcloud-password-manager-hit-by-cyber.html",
+      "priority": true,
+      "theater": "CYBER"
+    },
     {
       "time": "11/28 04:52 UTC",
       "source": "BBC WORLD",
@@ -755,110 +859,6 @@
       "source": "BBC WORLD",
       "title": "Italy's former police chief rejected mafia inquiry allegations before death",
       "link": "https://www.bbc.co.uk/news/articles/c69q8yjj1v0po?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BBC WORLD",
-      "title": "Ex-media executive admits saying Australian child sex abuse survivor 'looking to be raped again'",
-      "link": "https://www.bbc.co.uk/news/articles/ckr5grlq78n9o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BBC WORLD",
-      "title": "Mushroom murderer Erin Patterson launches last-ditch High Court appeal",
-      "link": "https://www.bbc.co.uk/news/articles/ck053e1d3ly1o?at_medium=RSS&at_campaign=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "BBC WORLD",
-      "title": "Clashes mar European games as Macron condemns violence",
-      "link": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo?at_medium=RSS&at_campaign=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "Why did Georgian police clash with Turkish football fans over Palestine?",
-      "link": "https://www.aljazeera.com/sports/2026/11/27/why-did-georgian-police-clash-with-turkish-football-fans-over-palestine?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "Eisenkot navigates tricky waters as he tests power-sharing with Netanyahu",
-      "link": "https://www.aljazeera.com/news/2026/11/27/eisenkot-navigates-tricky-waters-as-he-tests-power-sharing-with-netanyahu?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "Famine expect to rise due to global conflict, El Nino, warns UN",
-      "link": "https://www.aljazeera.com/news/2026/11/27/famine-expect-to-rise-due-to-global-conflict-el-nino-warns-un?traffic_source=rss",
-      "priority": true,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "Sentence served, still detained: Palestinian families waiting for reunions",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/27/sentence-served-still-detained-palestinian-families-waiting-for-reunions?traffic_source=rss",
-      "priority": false,
-      "theater": "MIDEAST"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "England\u2019s Overton takes 5-12 as Australia bowled out for record low in T20",
-      "link": "https://www.aljazeera.com/sports/2026/11/27/englands-overton-takes-5-12-as-australia-bowled-out-for-record-low-in-t20?traffic_source=rss",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "Trump embraced Xi, then slapped new tariffs on China: What\u2019s his game plan?",
-      "link": "https://www.aljazeera.com/features/2026/11/27/trump-embraced-xi-then-slapped-new-tariffs-on-china-whats-his-game-plan?traffic_source=rss",
-      "priority": true,
-      "theater": "INDOPACIFIC"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "AL JAZEERA",
-      "title": "European football violence causes concern with far-right claim in UEFA game",
-      "link": "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made?traffic_source=rss",
-      "priority": true,
-      "theater": "EUROPE"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Hackers breach US Air Force flagship Cloud One computing platform",
-      "link": "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
-      "priority": true,
-      "theater": "CYBER"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "A race for lifesaving battlefield drones | Defense News Weekly Full Episode 11.24.26",
-      "link": "https://www.defensenews.com/video/2026/11/27/a-race-for-lifesaving-battlefield-drones-defense-news-weekly-full-episode-11-24-26/",
-      "priority": false,
-      "theater": "GLOBAL"
-    },
-    {
-      "time": "11/27 14:43 UTC",
-      "source": "DEFENSE NEWS",
-      "title": "Leonardo rolls out first M-346 jet for Italy\u2019s Air Force stunt flying unit",
-      "link": "https://www.defensenews.com/global/europe/2026/11/27/leonardo-rolls-out-first-m-346-jet-for-italys-air-force-stunt-flying-unit/",
       "priority": false,
       "theater": "GLOBAL"
     }
